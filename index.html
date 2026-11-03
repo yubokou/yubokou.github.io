@@ -105,9 +105,9 @@ layout: default
         <a href="{{ profile.links.scholar }}">Google Scholar →</a>
       </div>
     </div>
-    {% assign featured = site.data.publications | where: "featured", true %}
+    {% assign recent = site.data.publications | where: "type", "paper" %}
     <div class="pubs">
-      {% for p in featured limit: 6 %}{% include pub.html p=p %}{% endfor %}
+      {% for p in recent limit: 6 %}{% include pub.html p=p %}{% endfor %}
     </div>
   </div>
 </section>

@@ -16,7 +16,7 @@ A small Jekyll site that GitHub Pages builds automatically. There is no build st
 
 ## Common updates
 
-**Add a paper.** Copy an entry in `_data/publications.yml`, paste it under the other papers from the same year (the file is newest year first), and fill in `year`, `title`, `authors`, `venue` (short tag such as `CHI`), `venue_full`, and `type` (`paper` or `other`). Optional: `award`, `link` (DOI or PDF), and `featured: true` to show it on the homepage (keep about six featured; remove the flag from the oldest one).
+**Add a paper.** Copy an entry in `_data/publications.yml`, paste it under the other papers from the same year (the file is newest year first), and fill in `year`, `title`, `authors`, `venue` (short tag such as `CHI`), `venue_full`, and `type` (`paper` or `other`). Optional: `award` and `link` (DOI or PDF). The homepage "Recent publications" automatically shows the first six papers in the file.
 
 **Add the photo.** Put the image in `assets/img/` (for example `assets/img/yubo.jpg`, about 800×1000 px) and set `photo: "assets/img/yubo.jpg"` in `_data/profile.yml`.
 

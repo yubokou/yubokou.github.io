@@ -1,7 +1,8 @@
 # Yubo Kou — publications
 # One entry per paper, NEWEST YEAR FIRST (the pages list papers in the order they appear here).
 # Fields: year, title, authors, venue (short tag shown in the gold/teal label), venue_full,
-#   type (paper | other), award (optional), featured (true = shown on the homepage), link (optional URL, e.g. DOI or PDF).
+#   type (paper | other), award (optional), link (optional URL, e.g. DOI or PDF).
+# The homepage shows the first six "paper" entries in this file, so keep the newest papers at the top.
 
 - year: 2026
   title: "Gaming Together on Discord: Teen Gamer's Cross-Platform Practices"
@@ -9,7 +10,6 @@
   venue: "CHI PLAY"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 10, 7, Article GAMES034"
   type: paper
-  featured: true
   link: "https://doi.org/10.1145/3831286"
 
 - year: 2026
@@ -42,7 +42,6 @@
   venue: "CCS"
   venue_full: "Proceedings of the ACM SIGSAC Conference on Computer and Communications Security (CCS 2026), The Hague, Netherlands"
   type: paper
-  featured: true
   link: "https://doi.org/10.1145/3830454.3846726"
 
 - year: 2026
@@ -59,7 +58,6 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026), Barcelona, Spain"
   type: paper
-  featured: true
   link: "https://doi.org/10.1145/3772318.3791692"
 
 - year: 2026
@@ -68,7 +66,6 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026), Barcelona, Spain"
   type: paper
-  featured: true
   link: "https://doi.org/10.1145/3772318.3790781"
 
 - year: 2026
@@ -85,7 +82,6 @@
   venue: "USENIX Security"
   venue_full: "USENIX Security 2026"
   type: paper
-  featured: true
 
 - year: 2026
   title: "Usable Anonymity in Reproductive Health Privacy"
@@ -125,7 +121,6 @@
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 9, 6, Article GAMES015"
   type: paper
   award: "Best Paper Honorable Mention"
-  featured: true
   link: "https://doi.org/10.1145/3748610"
 
 - year: 2025

@@ -19,9 +19,11 @@
 <header class="site-header">
   <div class="wrap header-row">
     <a class="logo px" href="{{ '/' | relative_url }}">{{ site.data.profile.name | upcase }}<span class="blink" aria-hidden="true">_</span></a>
-    <nav class="nav" aria-label="Main">
+    <button type="button" class="menu-toggle mono" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>MENU <span aria-hidden="true">▾</span></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a>
       <a href="{{ '/#research' | relative_url }}">Research</a>
-      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.url == "/publications/" %} aria-current="page"{% endif %}>Publications</a>
       <a href="{{ '/#students' | relative_url }}">Students</a>
       <a href="{{ '/#teaching' | relative_url }}">Teaching</a>
       <a href="{{ '/#contact' | relative_url }}">Contact</a>

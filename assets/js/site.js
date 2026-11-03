@@ -71,6 +71,12 @@
       if (id === cur.id) r.setAttribute('aria-current', 'location'); else r.removeAttribute('aria-current');
     });
     if (curLabel) curLabel.textContent = cur.getAttribute('data-stage').toUpperCase();
+    $$('.nav a').forEach(function (a) {
+      var href = a.getAttribute('href') || '';
+      var target = href.indexOf('#') > -1 ? href.split('#')[1] : (a.getAttribute('aria-current') === 'page' ? 'start' : '');
+      var here = target === cur.id || (target === 'start' && cur.id === 'about');
+      a.classList.toggle('here', here);
+    });
     if (!completed && stages.every(function (s) { return seen[s.id]; })) {
       completed = true;
       store.set('sessionStorage', 'yk-complete', '1');
@@ -78,6 +84,7 @@
     }
   }
   if (map && stages.length) {
+    document.documentElement.classList.add('has-spy');
     var ticking = false;
     window.addEventListener('scroll', function () {
       if (ticking) return;
@@ -89,6 +96,29 @@
     rooms.forEach(function (r) {
       r.addEventListener('click', function (e) { e.preventDefault(); jumpTo(r.getAttribute('data-room')); });
     });
+  }
+
+  // Mobile menu.
+  var toggleBtn = $('[data-menu-toggle]');
+  var siteNav = $('#site-nav');
+  function setMenu(open) {
+    if (!toggleBtn || !siteNav) return;
+    siteNav.classList.toggle('open', open);
+    toggleBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  if (toggleBtn && siteNav) {
+    toggleBtn.addEventListener('click', function () { setMenu(!siteNav.classList.contains('open')); });
+    $$('a', siteNav).forEach(function (a) { a.addEventListener('click', function () { setMenu(false); }); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && siteNav.classList.contains('open')) { setMenu(false); toggleBtn.focus(); } });
+  }
+
+  // Back-to-top button (publications page).
+  var topBtn = $('[data-to-top]');
+  if (topBtn) {
+    var paintTop = function () { topBtn.classList.toggle('show', window.scrollY > window.innerHeight); };
+    window.addEventListener('scroll', paintTop, { passive: true });
+    paintTop();
+    topBtn.addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' }); });
   }
 
   // Dialog box: the blinking arrow shows the next line, then loops.

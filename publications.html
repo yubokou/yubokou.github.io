@@ -7,6 +7,7 @@ description: "Publications by Yubo Kou."
 {% assign groups = site.data.publications | group_by: "year" %}
 <section class="section page-top" aria-labelledby="pubs-h">
   <div class="wrap">
+    <a class="back-link mono" href="{{ '/' | relative_url }}"><span aria-hidden="true">◂</span> Back to home</a>
     <div class="section-head split">
       <div>
         <h1 id="pubs-h" class="px page-h">Publications</h1>
@@ -21,8 +22,12 @@ description: "Publications by Yubo Kou."
       <button type="button" class="qbtn" data-filter="paper" aria-pressed="false"><span class="cur" aria-hidden="true">▸</span>Papers</button>
       <button type="button" class="qbtn" data-filter="other" aria-pressed="false"><span class="cur" aria-hidden="true">▸</span>Posters, workshops, and magazine</button>
     </div>
+    <nav class="year-jump mono" aria-label="Jump to year">
+      <span>JUMP TO</span>
+      {% for g in groups %}<a href="#y{{ g.name }}">{{ g.name }}</a>{% endfor %}
+    </nav>
     {% for g in groups %}
-      <div class="year-group" data-year-group>
+      <div class="year-group" id="y{{ g.name }}" data-year-group>
         <h2 class="year px">{{ g.name }}</h2>
         <div class="pubs">
           {% for p in g.items %}{% include pub.html p=p full=true %}{% endfor %}
@@ -31,3 +36,4 @@ description: "Publications by Yubo Kou."
     {% endfor %}
   </div>
 </section>
+<a class="to-top mono notch" href="#main" data-to-top><span aria-hidden="true">▲</span> Top</a>

@@ -91,6 +91,19 @@
     });
   }
 
+  // Dialog box: the blinking arrow shows the next line, then loops.
+  var dialog = $('[data-dialog]');
+  var nextBtn = $('[data-dialog-next]');
+  if (dialog && nextBtn) {
+    var lines = $$('p', dialog), at = 0;
+    nextBtn.addEventListener('click', function () {
+      lines[at].hidden = true;
+      at = (at + 1) % lines.length;
+      lines[at].hidden = false;
+      nextBtn.setAttribute('aria-label', at === lines.length - 1 ? 'Back to the first line' : 'Next line');
+    });
+  }
+
   // Quest log: one panel at a time; arrow keys move through the list.
   var quests = $('[data-quests]');
   if (quests) {

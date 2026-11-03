@@ -4,8 +4,11 @@ titles:
   - "Associate Professor · Haile Family Early Career Professor"
   - "College of Information Sciences and Technology, Penn State"
 
-# The speech bubble on the homepage (first person, one or two sentences).
-dialog: "Hi, I'm Yubo. When it comes to gaming, I'm a gamer first and a researcher second."
+# The speech bubble on the homepage. Visitors click the blinking arrow to see the next line; it loops back to the first.
+dialog:
+  - "Hi, I'm Yubo. When it comes to gaming, I'm a gamer first and a researcher second."
+  - "My most current research interests are governance and play."
+  - "Xinning Gui and I co-run the Health and Play Lab at Penn State."
 
 # Photo: put the file in assets/img/ and write its path here, e.g. "assets/img/yubo.jpg". Leave "" to show a placeholder.
 photo: "assets/img/yubo.jpg"

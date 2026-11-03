@@ -60,8 +60,14 @@ img { max-width: 100%; display: block; }
 .hero-titles { margin: 0; font-size: 19px; line-height: 1.55; color: var(--muted); }
 .dialog { position: relative; margin: 10px 6px 6px; background: var(--bg); border: 3px solid var(--text); box-shadow: 0 0 0 3px var(--bg), 0 0 0 6px var(--text); padding: 26px 28px 30px; }
 .dialog p { margin: 0; font-size: 24px; line-height: 1.45; }
+/* All lines share one cell so the box keeps the height of the longest line. */
+.dialog-lines { display: grid; }
+.dialog-lines p { grid-area: 1 / 1; }
+.dialog-lines p[hidden] { display: block !important; visibility: hidden; }
 .dialog-tag { position: absolute; top: -16px; left: 18px; background: var(--gold); color: var(--bg); font-size: 13px; font-weight: 600; letter-spacing: .1em; padding: 4px 10px; }
-.dialog-next { position: absolute; right: 18px; bottom: 8px; color: var(--gold); font-size: 16px; }
+.dialog-next { display: none; position: absolute; right: 6px; bottom: 2px; width: 44px; height: 40px; padding: 0; background: none; border: 0; color: var(--gold); font-size: 16px; cursor: pointer; }
+.js .dialog-next { display: block; }
+.dialog-next:hover { color: var(--text); }
 .menu { display: flex; flex-direction: column; gap: 2px; padding-top: 8px; }
 .menu a { display: flex; align-items: center; gap: 14px; min-height: 44px; color: var(--muted); text-decoration: none; font-family: var(--px); font-size: 26px; letter-spacing: .02em; }
 .menu a .cur { color: var(--gold); opacity: 0; width: 16px; }

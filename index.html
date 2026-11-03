@@ -15,8 +15,10 @@ layout: default
       </div>
       <div class="dialog">
         <span class="dialog-tag mono">{{ profile.name | split: " " | first | upcase }}</span>
-        <p class="px">{{ profile.dialog }}</p>
-        <span class="dialog-next blink" aria-hidden="true">▼</span>
+        <div class="dialog-lines" aria-live="polite" data-dialog>
+          {% for line in profile.dialog %}<p class="px"{% unless forloop.first %} hidden{% endunless %}>{{ line }}</p>{% endfor %}
+        </div>
+        {% if profile.dialog.size > 1 %}<button type="button" class="dialog-next" data-dialog-next aria-label="Next line"><span class="blink" aria-hidden="true">▼</span></button>{% endif %}
       </div>
       <nav class="menu" aria-label="Start menu" data-menu>
         <a class="on" href="#research"><span class="cur" aria-hidden="true">▸</span>Research</a>

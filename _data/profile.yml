@@ -11,16 +11,16 @@ dialog: "Hi! I study how governance and play intersect in video games, content m
 photo: "assets/img/yubo.jpg"
 photo_alt: "Yubo Kou smiling, holding a game controller"
 
-# Character sheet next to the photo.
+# Info panel next to the photo.
 sheet:
-  - label: "CLASS"
-    value: "Researcher, HCI · CSCW · Social computing"
-  - label: "GUILD"
+  - label: "FIELD"
+    value: "HCI · CSCW · Social computing"
+  - label: "LAB"
     value: "Health and Play Lab"
     url: "https://sites.psu.edu/healthandplay/"
-  - label: "ORIGIN"
-    value: "PhD, Informatics, UC Irvine"
-  - label: "BASE"
+  - label: "PHD"
+    value: "Informatics, UC Irvine"
+  - label: "OFFICE"
     value: "E353 Westgate Building"
 
 bio:

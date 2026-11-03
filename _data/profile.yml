@@ -18,7 +18,10 @@ photo_alt: "Yubo Kou smiling, holding a game controller"
 # Info panel next to the photo.
 sheet:
   - label: "FIELD"
-    value: "HCI · CSCW · Social computing"
+    lines:    # each item shows on its own line
+      - "HCI · CSCW"
+      - "Social computing"
+      - "Usable privacy and security"
   - label: "LAB"
     value: "Health and Play Lab"
     url: "https://sites.psu.edu/healthandplay/"

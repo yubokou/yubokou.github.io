@@ -38,7 +38,7 @@ layout: default
       <dl class="sheet mono">
         {% for row in profile.sheet %}
           <dt>{{ row.label }}</dt>
-          <dd>{% if row.url %}<a href="{{ row.url }}">{{ row.value }}</a>{% else %}{{ row.value }}{% endif %}</dd>
+          <dd>{% if row.lines %}{{ row.lines | join: "<br>" }}{% elsif row.url %}<a href="{{ row.url }}">{{ row.value }}</a>{% else %}{{ row.value }}{% endif %}</dd>
         {% endfor %}
       </dl>
     </aside>

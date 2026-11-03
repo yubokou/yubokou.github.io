@@ -45,6 +45,14 @@
   link: "https://doi.org/10.1145/3830454.3846726"
 
 - year: 2026
+  title: "Player Safety by Design: Co-Designing Child-Centered Safety Mechanisms with Children"
+  authors: "Zinan Zhang, Qiurong Song, Rie Helene (Lindy) Hernandez, Yunhan Liu, Elena Koung, Junnan Yu, Sunhye Bai, Yubo Kou, and Xinning Gui"
+  venue: "CHI"
+  venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026), Barcelona, Spain"
+  type: paper
+  link: "https://doi.org/10.1145/3772318.3791090"
+
+- year: 2026
   title: "Surveillance as Care: Configuring Baby Monitors in the Home"
   authors: "Qiurong Song, Yunhan Liu, Zinan Zhang, Yubo Kou, and Xinning Gui"
   venue: "CHI"
@@ -67,14 +75,6 @@
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026), Barcelona, Spain"
   type: paper
   link: "https://doi.org/10.1145/3772318.3790781"
-
-- year: 2026
-  title: "Player Safety by Design: Co-Designing Child-Centered Safety Mechanisms with Children"
-  authors: "Zinan Zhang, Qiurong Song, Rie Helene (Lindy) Hernandez, Yunhan Liu, Elena Koung, Junnan Yu, Sunhye Bai, Yubo Kou, and Xinning Gui"
-  venue: "CHI"
-  venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026), Barcelona, Spain"
-  type: paper
-  link: "https://doi.org/10.1145/3772318.3791090"
 
 - year: 2026
   title: "Digital Risks and Coping Practices among Roblox Game Creators"

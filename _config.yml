@@ -6,7 +6,7 @@ lang: en
 # If the site lives at https://USERNAME.github.io/yubokou/, keep baseurl as "/yubokou".
 # If you use a custom domain or a USERNAME.github.io repository, set baseurl to "".
 baseurl: "/yubokou"
-url: "https://USERNAME.github.io"
+url: "https://mondialito.github.io"
 
 exclude:
   - README.md

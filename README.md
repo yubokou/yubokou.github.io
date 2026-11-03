@@ -32,7 +32,7 @@ After any change, update `last_updated` in `_data/profile.yml`.
 2. In the repository, open **Settings → Pages**, set **Source** to "Deploy from a branch", choose `main` and `/ (root)`, and save.
 3. In `_config.yml`, set `url` to `https://YOUR-USERNAME.github.io` and keep `baseurl: "/yubokou"` (use the repository name). For a custom domain, set `baseurl: ""` and add the domain in Settings → Pages.
 
-The site will be at `https://YOUR-USERNAME.github.io/yubokou/`.
+The site will be at `https://mondialito.github.io/yubokou/`.
 
 ## Secret
 

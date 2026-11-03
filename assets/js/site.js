@@ -73,7 +73,10 @@
     if (curLabel) curLabel.textContent = cur.getAttribute('data-stage').toUpperCase();
     $$('.nav a').forEach(function (a) {
       var href = a.getAttribute('href') || '';
-      var target = href.indexOf('#') > -1 ? href.split('#')[1] : (a.getAttribute('aria-current') === 'page' ? 'start' : '');
+      // The Publications tab opens the full list page, but on the homepage it should still light up at the Recent publications section.
+      var target = href.indexOf('#') > -1 ? href.split('#')[1]
+        : /\/publications\/$/.test(href) ? 'publications'
+        : (a.getAttribute('aria-current') === 'page' ? 'start' : '');
       var here = target === cur.id || (target === 'start' && cur.id === 'about');
       a.classList.toggle('here', here);
     });

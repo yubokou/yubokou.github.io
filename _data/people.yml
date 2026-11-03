@@ -7,14 +7,17 @@ current:
     since: 2025
   - name: "Elena Koung"
     initials: "EK"
+    url: "https://sites.psu.edu/elenakoung/"
     degree: "PhD"
     since: 2024
   - name: "Zinan (Zina) Zhang"
     initials: "ZZ"
+    url: "https://www.zzinan.com/"
     degree: "PhD"
     since: 2022
   - name: "Qiurong Song"
     initials: "QS"
+    url: "https://qiurongsong.github.io/"
     degree: "PhD"
     since: 2022
     note: "Co-advised with Xinning Gui"
@@ -24,7 +27,8 @@ former:
   - name: "Renkai Ma"
     degree: "PhD"
     year: 2024
-    next: ""
+    next: "Assistant Professor, School of Information Technology, University of Cincinnati"
+    url: "https://renkaima.xyz/"
 
 # Master's and undergraduate researchers (names only).
 other:

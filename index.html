@@ -14,7 +14,6 @@ layout: default
         <p class="hero-titles">{% for t in profile.titles %}{{ t }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
       </div>
       <div class="dialog">
-        <span class="dialog-tag mono">{{ profile.name | split: " " | first | upcase }}</span>
         <div class="dialog-lines" aria-live="polite" data-dialog>
           {% for line in profile.dialog %}<p class="px"{% unless forloop.first %} hidden{% endunless %}>{{ line }}</p>{% endfor %}
         </div>

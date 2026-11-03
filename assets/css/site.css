@@ -67,7 +67,6 @@ img { max-width: 100%; display: block; }
 .dialog-lines { display: grid; }
 .dialog-lines p { grid-area: 1 / 1; }
 .dialog-lines p[hidden] { display: block !important; visibility: hidden; }
-.dialog-tag { position: absolute; top: -16px; left: 18px; background: var(--gold); color: var(--bg); font-size: 13px; font-weight: 600; letter-spacing: .1em; padding: 4px 10px; }
 .dialog-next { display: none; position: absolute; right: 6px; bottom: 2px; width: 44px; height: 40px; padding: 0; background: none; border: 0; color: var(--gold); font-size: 16px; cursor: pointer; }
 .js .dialog-next { display: block; }
 .dialog-next:hover { color: var(--text); }

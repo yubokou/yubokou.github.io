@@ -32,6 +32,7 @@ a:hover { color: var(--gold); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 img { max-width: 100%; display: block; }
 .px { font-family: var(--px); }
+.px, html.retro body { font-variant-ligatures: none; font-feature-settings: "liga" 0, "clig" 0; }
 .mono { font-family: var(--mono); }
 .wrap { max-width: 1200px; margin: 0 auto; padding-left: 40px; padding-right: 40px; }
 .notch { clip-path: polygon(0 5px, 5px 5px, 5px 0, calc(100% - 5px) 0, calc(100% - 5px) 5px, 100% 5px, 100% calc(100% - 5px), calc(100% - 5px) calc(100% - 5px), calc(100% - 5px) 100%, 5px 100%, 5px calc(100% - 5px), 0 calc(100% - 5px)); }

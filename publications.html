@@ -1,0 +1,36 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: "Publications by Yubo Kou."
+---
+{% assign groups = site.data.publications | group_by: "year" %}
+<section class="section page-top" aria-labelledby="pubs-h">
+  <div class="wrap">
+    <div class="section-head split">
+      <div>
+        <p class="label mono">FULL QUEST HISTORY</p>
+        <h1 id="pubs-h" class="px page-h">Publications</h1>
+      </div>
+      <div class="head-links mono">
+        <a href="{{ site.data.profile.links.scholar }}">Google Scholar →</a>
+        {% if site.data.profile.links.cv != "" %}<a href="{{ site.data.profile.links.cv | relative_url }}">CV →</a>{% endif %}
+      </div>
+    </div>
+    <div class="filters" role="group" aria-label="Filter publications" data-filters>
+      <button type="button" class="qbtn on" data-filter="all" aria-pressed="true"><span class="cur" aria-hidden="true">▸</span>All</button>
+      <button type="button" class="qbtn" data-filter="paper" aria-pressed="false"><span class="cur" aria-hidden="true">▸</span>Papers</button>
+      <button type="button" class="qbtn" data-filter="other" aria-pressed="false"><span class="cur" aria-hidden="true">▸</span>Posters, workshops, and magazine</button>
+      <button type="button" class="qbtn" data-filter="award" aria-pressed="false"><span class="cur" aria-hidden="true">▸</span>Award-winning</button>
+    </div>
+    {% for g in groups %}
+      <div class="year-group" data-year-group>
+        <h2 class="year px">{{ g.name }}</h2>
+        <div class="pubs">
+          {% for p in g.items %}{% include pub.html p=p full=true %}{% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+    <p class="meta note">Asterisks marking student co-authors in the CV are omitted here.</p>
+  </div>
+</section>

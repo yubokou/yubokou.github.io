@@ -1,0 +1,37 @@
+# Students. Move someone from "current" to "former" when they graduate.
+# initials are shown when there is no photo. photo: "assets/img/NAME.jpg" (optional).
+current:
+  - name: "Kexin Chen"
+    initials: "KC"
+    degree: "PhD"
+    since: 2025
+  - name: "Elena Koung"
+    initials: "EK"
+    degree: "PhD"
+    since: 2024
+  - name: "Zinan (Zina) Zhang"
+    initials: "ZZ"
+    degree: "PhD"
+    since: 2022
+  - name: "Qiurong Song"
+    initials: "QS"
+    degree: "PhD"
+    since: 2022
+    note: "Co-advised with Xinning Gui"
+
+# Graduated advisees. "next" is their position after graduating (leave "" if unknown).
+former:
+  - name: "Renkai Ma"
+    degree: "PhD"
+    year: 2024
+    next: ""
+
+# Master's and undergraduate researchers (names only).
+other:
+  - "Alexander Pretka"
+  - "Lingwei Qu"
+  - "Jeffrey Oh"
+  - "Franco Woan"
+  - "Andrew Woan"
+  - "John Zhuang"
+  - "Kon Woo Kim"

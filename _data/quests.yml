@@ -1,0 +1,107 @@
+# Research areas, shown as a "quest log" on the homepage.
+# kind: main | side. "objectives" and "sponsor" are optional.
+- id: harmful-design
+  kind: main
+  short: "Harmful design in virtual worlds"
+  title: "Harmful design in user-generated virtual worlds"
+  description: "Who creates content for metaverse platforms such as Roblox, and how should that content be governed? This quest examines harmful design, predatory monetization, and children's safety on user-generated game platforms."
+  objectives:
+    - "Harmful and deceptive design by game creators"
+    - "Gambling-like mechanics and predatory monetization"
+    - "How children assess and cope with safety risks"
+    - "Design moderation and platform governance"
+  papers:
+    - venue: "DIS 2023"
+      title: "Harmful Design in the Metaverse and How to Mitigate It"
+    - venue: "CHI PLAY 2024"
+      title: "Harmful Design in User-Generated Games and its Ethical and Governance Challenges"
+    - venue: "CHI 2025"
+      title: "Child Safety, Monetization, and Moderation on Roblox"
+    - venue: "CCS 2026"
+      title: "How Children Assess Digital Safety Risk in Gaming Platforms"
+  sponsor: "NSF #2326505 · Penn State College of IST Seed Grant"
+
+- id: esports
+  kind: main
+  short: "Gaming and esports"
+  title: "Gaming and esports"
+  description: "How players team up, compete, progress, and feel in competitive games, much of it studied in League of Legends: teamwork, self-tracking, streaks, emotion regulation, toxic behavior, and the rules that govern play."
+  objectives:
+    - "Teamwork and temporary teams"
+    - "Toxicity and gendered harassment"
+    - "Emotion regulation, streaks, and progression"
+    - "Esports governance and casual game modes"
+  papers:
+    - venue: "CHI PLAY 2014"
+      title: "Playing with Strangers: Understanding Temporary Teams in League of Legends"
+    - venue: "CSCW 2020"
+      title: "Emotion Regulation in eSports Gaming"
+    - venue: "CSCW 2024"
+      title: "Casual Competition by Design"
+    - venue: "CHI PLAY 2025"
+      title: "Gendered Toxicity in Competitive Gaming"
+
+- id: moderation
+  kind: main
+  short: "Punishment and moderation"
+  title: "Punishment and the moderation experience"
+  description: "How can moderation make online communities better? This quest focuses on understanding and supporting punished users, and on making moderation more transparent, fair, and rehabilitative."
+  objectives:
+    - "Experiences of punished users"
+    - "Peer support and community-based rehabilitation"
+    - "Transparency and fairness in moderation"
+    - "Creator moderation on YouTube"
+  papers:
+    - venue: "CHI 2021"
+      title: "Flag and Flaggability in Automated Moderation"
+    - venue: "CSCW 2021"
+      title: "Punishment and Its Discontents"
+    - venue: "CHI 2024"
+      title: "Community Begins Where Moderation Ends"
+    - venue: "CHI 2026"
+      title: "Why Creators Break Rules"
+  sponsor: "NSF #2006854 · NSF #2334934"
+
+- id: culture
+  kind: side
+  short: "Culture and technology use"
+  title: "Culture and technology use"
+  description: "How local cultural frameworks, including Confucian values, shape practices such as censorship and the use of visual language like emoji, stickers, and memes."
+  papers:
+    - venue: "INTERACT 2017"
+      title: "A Confucian Look at Internet Censorship in China"
+    - venue: "CSCW 2019"
+      title: "Culturally-Embedded Visual Literacy"
+
+- id: ai
+  kind: side
+  short: "AI in context"
+  title: "AI in context"
+  description: "The settings where people encounter technologies labeled as AI, from consumer health tools and symptom checkers to AI-led moderation."
+  papers:
+    - venue: "CSCW 2020"
+      title: "Mediating Community-AI Interaction through Situated Explanation"
+    - venue: "CHI 2021"
+      title: "The Medical Authority of AI"
+
+- id: community
+  kind: side
+  short: "Community and technology"
+  title: "Community and technology"
+  description: "Designing technology to support community development, including professionalization and social roles among UX practitioners online."
+  papers:
+    - venue: "ACM TSC 2018"
+      title: "Understanding Social Roles in an Online Community of Volatile Practice"
+    - venue: "CHI 2019"
+      title: "A Practice-Led Account of the Conceptual Evolution of UX Knowledge"
+
+- id: discourse
+  kind: side
+  short: "Social media discourses"
+  title: "Social media discourses"
+  description: "Conspiracy talk, propaganda, and misinformation in their conversational and cultural contexts."
+  papers:
+    - venue: "CSCW 2017"
+      title: "Conspiracy Talk on Social Media"
+    - venue: "JCSCW 2017"
+      title: "One Social Movement, Two Social Media Sites"

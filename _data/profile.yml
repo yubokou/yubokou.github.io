@@ -1,0 +1,45 @@
+# Yubo Kou — profile and contact details.
+name: "Yubo Kou"
+titles:
+  - "Associate Professor · Haile Family Early Career Professor"
+  - "College of Information Sciences and Technology, Penn State"
+
+# The speech bubble on the homepage (first person, one or two sentences).
+dialog: "Hi! I study how governance and play intersect in video games, content moderation, and metaverse platforms, and how to keep online play safe, fair, and fun."
+
+# Photo: put the file in assets/img/ and write its path here, e.g. "assets/img/yubo.jpg". Leave "" to show a placeholder.
+photo: ""
+photo_alt: "Portrait of Yubo Kou"
+
+# Character sheet next to the photo.
+sheet:
+  - label: "CLASS"
+    value: "Researcher, HCI · CSCW · Social computing"
+  - label: "GUILD"
+    value: "Health and Play Lab"
+    url: "https://sites.psu.edu/healthandplay/"
+  - label: "ORIGIN"
+    value: "PhD, Informatics, UC Irvine"
+  - label: "BASE"
+    value: "E353 Westgate Building"
+
+bio:
+  - "I am the Haile Family Early Career Professor and an Associate Professor in the College of Information Sciences and Technology at Penn State. My research lies at the intersection of human-computer interaction, computer-supported cooperative work, and social computing. I use human-centered design methods to understand and design for digital safety on online platforms, such as video games, virtual worlds, and social media, and to inform the moderation mechanisms and platform policies that govern them."
+  - "I co-direct the Health and Play Lab with Xinning Gui. Before Penn State, I was an Assistant Professor at Florida State University and a Postdoctoral Research Associate at Purdue University. I received my PhD in Information and Computer Sciences from the University of California, Irvine."
+
+email: "yubokou@psu.edu"
+office:
+  - "E353 Westgate Building"
+  - "University Park, PA 16802"
+
+# Note for prospective students on the Contact section. Leave "" to hide it.
+prospective: ""
+
+links:
+  cv: ""            # e.g. "assets/cv/yubo-kou-cv.pdf" once the PDF is added
+  scholar: "https://scholar.google.com/citations?user=mCz8znkAAAAJ&hl=en"
+  lab: "https://sites.psu.edu/healthandplay/"
+  xinning: "https://sites.psu.edu/xinninggui/"
+
+# Shown in the footer as "Last saved". Update when you edit the site.
+last_updated: "Nov 2, 2026"

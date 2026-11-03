@@ -1,0 +1,17 @@
+# Site settings for Yubo Kou's website (Jekyll, built automatically by GitHub Pages).
+title: "Yubo Kou"
+description: "Yubo Kou is the Haile Family Early Career Professor and an Associate Professor in the College of Information Sciences and Technology at Penn State. His research studies governance and play in video games, content moderation, and metaverse platforms."
+lang: en
+
+# If the site lives at https://USERNAME.github.io/yubokou/, keep baseurl as "/yubokou".
+# If you use a custom domain or a USERNAME.github.io repository, set baseurl to "".
+baseurl: "/yubokou"
+url: "https://USERNAME.github.io"
+
+exclude:
+  - README.md
+  - AGENTS.md
+  - preview/
+  - node_modules/
+  - package.json
+  - package-lock.json

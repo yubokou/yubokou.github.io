@@ -1,0 +1,10 @@
+# Courses taught at Penn State.
+- code: "IST 520"
+  name: "Foundations of Human-Centered Design"
+  level: "Graduate"
+- code: "IST 525"
+  name: "Computer-Supported Cooperative Work"
+  level: "Graduate"
+- code: "IST 402"
+  name: "Emerging Issues and Technologies: Game and Play"
+  level: "Undergraduate"

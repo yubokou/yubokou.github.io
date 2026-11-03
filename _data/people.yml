@@ -1,0 +1,41 @@
+# Students. Move someone from "current" to "former" when they graduate.
+# initials are shown when there is no photo. photo: "assets/img/NAME.jpg" (optional). url: personal homepage (optional; the name becomes a link).
+current:
+  - name: "Kexin Chen"
+    initials: "KC"
+    degree: "PhD"
+    since: 2025
+  - name: "Elena Koung"
+    initials: "EK"
+    url: "https://sites.psu.edu/elenakoung/"
+    degree: "PhD"
+    since: 2024
+  - name: "Zinan (Zina) Zhang"
+    initials: "ZZ"
+    url: "https://www.zzinan.com/"
+    degree: "PhD"
+    since: 2022
+  - name: "Qiurong Song"
+    initials: "QS"
+    url: "https://qiurongsong.github.io/"
+    degree: "PhD"
+    since: 2022
+    note: "Co-advised with Xinning Gui"
+
+# Graduated advisees (shown as Alumni). "next" is their current position (leave "" if unknown).
+former:
+  - name: "Renkai Ma"
+    degree: "PhD"
+    year: 2024
+    next: "Assistant Professor, School of Information Technology, University of Cincinnati"
+    url: "https://renkaima.xyz/"
+
+# Master's and undergraduate researchers (names only).
+other:
+  - "Alexander Pretka"
+  - "Lingwei Qu"
+  - "Jeffrey Oh"
+  - "Franco Woan"
+  - "Andrew Woan"
+  - "John Zhuang"
+  - "Kon Woo Kim"

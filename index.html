@@ -1,12 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-</head>
-<body>
-    <h1>Welcome to My Personal Website</h1>
-    <p>Hello, this is my personal website hosted on GitHub Pages!</p>
-</body>
-</html>
+---
+layout: default
+---
+{% assign profile = site.data.profile %}
+{% assign main_quests = site.data.quests | where: "kind", "main" %}
+{% assign side_quests = site.data.quests | where: "kind", "side" %}
+
+<section id="start" class="hero" aria-labelledby="hero-h" data-stage="Start">
+  <div class="wrap hero-row">
+    <div class="hero-text">
+      <p class="eyebrow mono">NOW PLAYING · PENN STATE IST</p>
+      <div class="hero-name">
+        <h1 id="hero-h" class="px">{{ profile.name }}</h1>
+        <p class="hero-titles">{% for t in profile.titles %}{{ t }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+      </div>
+      <div class="dialog">
+        <span class="dialog-tag mono">{{ profile.name | split: " " | first | upcase }}</span>
+        <div class="dialog-lines" aria-live="polite" data-dialog>
+          {% for line in profile.dialog %}<p class="px"{% unless forloop.first %} hidden{% endunless %}>{{ line }}</p>{% endfor %}
+        </div>
+        {% if profile.dialog.size > 1 %}<button type="button" class="dialog-next" data-dialog-next aria-label="Next line"><span class="blink" aria-hidden="true">▼</span></button>{% endif %}
+      </div>
+      <nav class="menu" aria-label="Start menu" data-menu>
+        <a class="on" href="#research"><span class="cur" aria-hidden="true">▸</span>Research</a>
+        <a href="{{ '/publications/' | relative_url }}"><span class="cur" aria-hidden="true">▸</span>Publications</a>
+        <a href="#students"><span class="cur" aria-hidden="true">▸</span>Students</a>
+        <a href="#contact"><span class="cur" aria-hidden="true">▸</span>Contact</a>
+      </nav>
+    </div>
+
+    <aside class="profile" aria-label="Profile">
+      <div class="portrait">
+        {% if profile.photo != "" %}
+          <img class="notch" src="{{ profile.photo | relative_url }}" alt="{{ profile.photo_alt }}" width="400" height="500">
+        {% else %}
+          <div class="notch portrait-empty" role="img" aria-label="Photo coming soon"><span class="mono">[PHOTO]</span></div>
+        {% endif %}
+      </div>
+      <dl class="sheet mono">
+        {% for row in profile.sheet %}
+          <dt>{{ row.label }}</dt>
+          <dd>{% if row.url %}<a href="{{ row.url }}">{{ row.value }}</a>{% else %}{{ row.value }}{% endif %}</dd>
+        {% endfor %}
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<section id="about" class="section" aria-labelledby="about-h" data-stage="About">
+  <div class="wrap about-row">
+    <div class="section-head">
+      <h2 id="about-h" class="px">About</h2>
+    </div>
+    <div class="about-text">
+      {% for para in profile.bio %}<p>{{ para }}</p>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="research" class="section band" aria-labelledby="research-h" data-stage="Research" data-key="1">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label mono">QUEST LOG</p>
+      <h2 id="research-h" class="px">Research</h2>
+    </div>
+    <p class="research-intro">My research lies in human-computer interaction, computer-supported cooperative work, social computing, and video games. At present, I'm mostly exploring the intersection of governance and play in contexts such as video games, content moderation, and metaverse.</p>
+
+    <p class="sublabel mono">MAIN QUESTS · ACTIVE</p>
+    <div class="quest-grid main">
+      {% for q in main_quests %}
+        <article class="quest-card notch" aria-labelledby="quest-{{ q.id }}">
+          <h3 id="quest-{{ q.id }}" class="px">{{ q.title }}</h3>
+          <p class="quest-desc">{{ q.description }}</p>
+          {% if q.papers %}
+            <div class="quest-foot">
+              <p class="sublabel mono">SELECTED PAPERS</p>
+              <ul class="quest-papers">{% for pp in q.papers %}<li><span class="mono">{{ pp.venue }}</span><span>{{ pp.title }}</span></li>{% endfor %}</ul>
+              {% if q.sponsor %}<p class="sponsor mono"><span>SUPPORTED BY</span> {{ q.sponsor }}</p>{% endif %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+
+    <p class="sublabel mono side-label">SIDE QUESTS · LESS FREQUENTLY UPDATED</p>
+    <div class="quest-grid side">
+      {% for q in side_quests %}
+        <article class="quest-card small" aria-labelledby="quest-{{ q.id }}">
+          <h3 id="quest-{{ q.id }}">{{ q.title }}</h3>
+          <p class="quest-desc">{{ q.description }}</p>
+          {% if q.papers %}<ul class="quest-papers">{% for pp in q.papers %}<li><span class="mono">{{ pp.venue }}</span><span>{{ pp.title }}</span></li>{% endfor %}</ul>{% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="section" aria-labelledby="pubs-h" data-stage="Publications" data-key="2">
+  <div class="wrap">
+    <div class="section-head split">
+      <div>
+        <h2 id="pubs-h" class="px">Recent publications</h2>
+      </div>
+      <div class="head-links mono">
+        <a href="{{ '/publications/' | relative_url }}">All publications →</a>
+        <a href="{{ profile.links.scholar }}">Google Scholar →</a>
+      </div>
+    </div>
+    {% assign featured = site.data.publications | where: "featured", true %}
+    <div class="pubs">
+      {% for p in featured limit: 6 %}{% include pub.html p=p %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="students" class="section band" aria-labelledby="students-h" data-stage="Students" data-key="3">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="students-h" class="px">Students</h2>
+    </div>
+    <p class="sublabel mono">CURRENT PHD STUDENTS</p>
+    <ul class="party">
+      {% for m in site.data.people.current %}
+        <li class="member">
+          {% if m.photo %}<img class="avatar notch" src="{{ m.photo | relative_url }}" alt="" width="240" height="240">{% else %}<div class="avatar notch" aria-hidden="true"><span class="px">{{ m.initials }}</span></div>{% endif %}
+          <p class="pname">{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</p>
+          <p class="mono meta">{{ m.degree }} student, {{ m.since }}–present</p>
+          {% if m.note %}<p class="mono meta">{{ m.note }}</p>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    <div class="former">
+      <p class="sublabel mono">ALUMNI</p>
+      {% for f in site.data.people.former %}
+        <p class="former-row"><strong>{% if f.url %}<a href="{{ f.url }}">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</strong> <span class="meta">{{ f.degree }}, {{ f.year }}{% if f.next != "" %} · {{ f.next }}{% endif %}</span></p>
+      {% endfor %}
+      <p class="meta">Master's and undergraduate researchers: {{ site.data.people.other | join: " · " }}</p>
+    </div>
+  </div>
+</section>
+
+<section id="teaching" class="section" aria-labelledby="teach-h" data-stage="Teaching" data-key="4">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="teach-h" class="px">Teaching</h2>
+    </div>
+    <ul class="tiles">
+      {% for c in site.data.teaching %}
+        <li class="tile notch"><p class="mono code">{{ c.code }}</p><p class="tile-title">{{ c.name }}</p><p class="tile-meta mono">{{ c.level | upcase }}</p></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="contact" aria-labelledby="contact-h" data-stage="Contact" data-key="5">
+  <div class="wrap contact-row">
+    <div class="contact-text">
+      <h2 id="contact-h" class="px">Contact<span class="blink" aria-hidden="true">_</span></h2>
+      {% if profile.prospective != "" %}<p>{{ profile.prospective }}</p>{% endif %}
+    </div>
+    <div class="contact-info">
+      <a class="mail mono notch" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+      <p class="mono">{{ profile.office | join: "<br>" }}</p>
+    </div>
+  </div>
+</section>
+
+<nav class="minimap" aria-label="Page map" data-minimap>
+  <p class="mm-head mono"><span>MAP</span><span class="mm-cur" data-mm-cur aria-live="off">START</span></p>
+  <div class="mm-grid">
+    <svg class="mm-lines" viewBox="0 0 132 58" aria-hidden="true" focusable="false"><polyline points="12,12 120,12 120,46 48,46"></polyline></svg>
+    <a class="room" href="#start" data-room="start" title="Start" style="left:0;top:0"><span class="sr">Start</span></a>
+    <a class="room" href="#about" data-room="about" title="About" style="left:36px;top:0"><span class="sr">About</span></a>
+    <a class="room" href="#research" data-room="research" title="Research" style="left:72px;top:0"><span class="sr">Research</span></a>
+    <a class="room" href="#publications" data-room="publications" title="Publications" style="left:108px;top:0"><span class="sr">Publications</span></a>
+    <a class="room" href="#students" data-room="students" title="Students" style="left:108px;top:34px"><span class="sr">Students</span></a>
+    <a class="room" href="#teaching" data-room="teaching" title="Teaching" style="left:72px;top:34px"><span class="sr">Teaching</span></a>
+    <a class="room" href="#contact" data-room="contact" title="Contact" style="left:36px;top:34px"><span class="sr">Contact</span></a>
+  </div>
+</nav>

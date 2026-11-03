@@ -1,0 +1,17 @@
+# Site settings for Yubo Kou's website (Jekyll, built automatically by GitHub Pages).
+title: "Yubo Kou"
+description: "Yubo Kou is an associate professor in the College of Information Sciences and Technology at Penn State. His research lies in HCI, CSCW, and social computing, with a current focus on governance and play."
+lang: en
+
+# The site lives at https://yubokou.github.io (repository yubokou/yubokou.github.io), so baseurl is "".
+# If it ever moves to https://USERNAME.github.io/REPO/, set baseurl to "/REPO".
+baseurl: ""
+url: "https://yubokou.github.io"
+
+exclude:
+  - README.md
+  - AGENTS.md
+  - preview/
+  - node_modules/
+  - package.json
+  - package-lock.json

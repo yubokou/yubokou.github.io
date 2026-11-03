@@ -1,0 +1,49 @@
+# Yubo Kou — profile and contact details.
+name: "Yubo Kou"
+titles:
+  - "Associate Professor · Haile Family Early Career Professor"
+  - "Assistant Director of Master's Programs"
+  - "College of Information Sciences and Technology, Penn State"
+
+# The speech bubble on the homepage. Visitors click the blinking arrow to see the next line; it loops back to the first.
+dialog:
+  - "Hi, I'm Yubo. When it comes to gaming, I'm a gamer first and a researcher second."
+  - "My most current research interests are governance and play."
+  - "Xinning Gui and I co-run the Health and Play Lab at Penn State."
+
+# Photo: put the file in assets/img/ and write its path here, e.g. "assets/img/yubo.jpg". Leave "" to show a placeholder.
+photo: "assets/img/yubo.jpg"
+photo_alt: "Yubo Kou smiling, holding a game controller"
+
+# Info panel next to the photo.
+sheet:
+  - label: "FIELD"
+    value: "HCI · CSCW · Social computing"
+  - label: "LAB"
+    value: "Health and Play Lab"
+    url: "https://sites.psu.edu/healthandplay/"
+  - label: "PHD"
+    value: "Informatics, UC Irvine"
+  - label: "OFFICE"
+    value: "E353 Westgate Building"
+
+bio:
+  - "I'm an associate professor in the College of Information Sciences and Technology at the Pennsylvania State University (Penn State). My research lies in the intersection of HCI, CSCW, and social computing. My most current research interests are governance and play."
+  - "Xinning Gui and I co-run the Health and Play Lab at Penn State. Before Penn State, I was an assistant professor at Florida State University and a postdoc at Purdue University. I received my PhD in Information and Computer Sciences from UC Irvine."
+
+email: "yubokou@psu.edu"
+office:
+  - "E353 Westgate Building"
+  - "University Park, PA 16802"
+
+# Note for prospective students on the Contact section. Leave "" to hide it.
+prospective: ""
+
+links:
+  cv: ""            # e.g. "assets/cv/yubo-kou-cv.pdf" once the PDF is added
+  scholar: "https://scholar.google.com/citations?user=mCz8znkAAAAJ&hl=en"
+  lab: "https://sites.psu.edu/healthandplay/"
+  xinning: "https://sites.psu.edu/xinninggui/"
+
+# Shown in the footer as "Last saved". Update when you edit the site.
+last_updated: "Nov 3, 2026"

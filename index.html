@@ -131,9 +131,9 @@ layout: default
       {% endfor %}
     </ul>
     <div class="former">
-      <p class="sublabel mono">FORMER PARTY MEMBERS</p>
+      <p class="sublabel mono">ALUMNI</p>
       {% for f in site.data.people.former %}
-        <p class="former-row"><strong>{{ f.name }}</strong> <span class="mono meta">{{ f.degree }}</span> <span class="mono cleared">CLEARED {{ f.year }}{% if f.next != "" %} ▸{% endif %}</span>{% if f.next != "" %} <span class="meta">{{ f.next }}</span>{% endif %}</p>
+        <p class="former-row"><strong>{{ f.name }}</strong> <span class="meta">{{ f.degree }}, {{ f.year }}{% if f.next != "" %} · {{ f.next }}{% endif %}</span></p>
       {% endfor %}
       <p class="meta">Master's and undergraduate researchers: {{ site.data.people.other | join: " · " }}</p>
     </div>

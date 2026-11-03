@@ -19,7 +19,7 @@ current:
     since: 2022
     note: "Co-advised with Xinning Gui"
 
-# Graduated advisees. "next" is their position after graduating (leave "" if unknown).
+# Graduated advisees (shown as Alumni). "next" is their current position (leave "" if unknown).
 former:
   - name: "Renkai Ma"
     degree: "PhD"

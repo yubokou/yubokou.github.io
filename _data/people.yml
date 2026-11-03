@@ -2,20 +2,24 @@
 # initials are shown when there is no photo. photo: "assets/img/NAME.jpg" (optional). url: personal homepage (optional; the name becomes a link).
 current:
   - name: "Kexin Chen"
+    photo: "assets/img/kexin-chen.jpg"
     initials: "KC"
     degree: "PhD"
     since: 2025
   - name: "Elena Koung"
+    photo: "assets/img/elena-koung.jpg"
     initials: "EK"
     url: "https://sites.psu.edu/elenakoung/"
     degree: "PhD"
     since: 2024
   - name: "Zinan (Zina) Zhang"
+    photo: "assets/img/zinan-zhang.jpg"
     initials: "ZZ"
     url: "https://www.zzinan.com/"
     degree: "PhD"
     since: 2022
   - name: "Qiurong Song"
+    photo: "assets/img/qiurong-song.jpg"
     initials: "QS"
     url: "https://qiurongsong.github.io/"
     degree: "PhD"

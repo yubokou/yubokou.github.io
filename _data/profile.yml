@@ -22,8 +22,6 @@ sheet:
     value: "PhD, Informatics, UC Irvine"
   - label: "BASE"
     value: "E353 Westgate Building"
-  - label: "PLAYS"
-    value: "League of Legends, Red Dead Redemption, Uncharted, Tomb Raider, Counter-Strike"
 
 bio:
   - "I am the Haile Family Early Career Professor and an Associate Professor in the College of Information Sciences and Technology at Penn State. My research lies at the intersection of human-computer interaction, computer-supported cooperative work, and social computing. I use human-centered design methods to understand and design for digital safety on online platforms, such as video games, virtual worlds, and social media, and to inform the moderation mechanisms and platform policies that govern them."

@@ -32,6 +32,7 @@ layout: default
       <div class="portrait">
         {% if profile.photo != "" %}
           <img class="notch" src="{{ profile.photo | relative_url }}" alt="{{ profile.photo_alt }}" width="400" height="500">
+          <span class="status mono"><span class="dot" aria-hidden="true"></span>ONLINE</span>
         {% else %}
           <div class="notch portrait-empty" role="img" aria-label="Photo coming soon"><span class="mono">[PHOTO]</span></div>
         {% endif %}

@@ -78,10 +78,12 @@ img { max-width: 100%; display: block; }
 .menu a:hover .cur, .menu a.on .cur, .menu a:focus-visible .cur { opacity: 1; }
 .hint { margin: 0; font-size: 13px; letter-spacing: .08em; color: var(--dim); }
 .profile { flex: 0 1 360px; min-width: 280px; }
-.portrait { border: 3px solid var(--text); padding: 10px; }
-.portrait img, .portrait-empty { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--panel-2); }
+.portrait { position: relative; background: var(--gold); padding: 10px; box-shadow: 8px 8px 0 var(--teal); }
+.portrait img, .portrait-empty { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--panel-2); }
+.status { position: absolute; left: 22px; bottom: 22px; display: inline-flex; align-items: center; gap: 8px; padding: 5px 10px; background: var(--gold); color: #14110A; font-size: 13px; font-weight: 600; letter-spacing: .1em; }
+.status .dot { width: 9px; height: 9px; background: #2BD46A; box-shadow: 0 0 0 2px #14110A; }
 .portrait-empty { display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 14px; letter-spacing: .08em; }
-.sheet { margin: 0; border: 3px solid var(--text); border-top: 0; padding: 18px 20px; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 10px 14px; font-size: 14px; line-height: 1.45; }
+.sheet { margin: 18px 0 0; background: var(--panel-2); border-left: 4px solid var(--teal); padding: 18px 20px; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 10px 14px; font-size: 14px; line-height: 1.45; }
 .sheet dt { color: var(--gold); font-weight: 600; }
 .sheet dd { margin: 0; }
 

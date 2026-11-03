@@ -3,10 +3,10 @@ title: "Yubo Kou"
 description: "Yubo Kou is an associate professor in the College of Information Sciences and Technology at Penn State. His research lies in HCI, CSCW, and social computing, with a current focus on governance and play."
 lang: en
 
-# If the site lives at https://USERNAME.github.io/yubokou/, keep baseurl as "/yubokou".
-# If you use a custom domain or a USERNAME.github.io repository, set baseurl to "".
-baseurl: "/yubokou"
-url: "https://mondialito.github.io"
+# The site lives at https://yubokou.github.io (repository yubokou/yubokou.github.io), so baseurl is "".
+# If it ever moves to https://USERNAME.github.io/REPO/, set baseurl to "/REPO".
+baseurl: ""
+url: "https://yubokou.github.io"
 
 exclude:
   - README.md

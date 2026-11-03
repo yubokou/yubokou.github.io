@@ -28,11 +28,10 @@ After any change, update `last_updated` in `_data/profile.yml`.
 
 ## Publishing with GitHub Pages
 
-1. Push this folder to a GitHub repository (for example `yubokou`).
-2. In the repository, open **Settings → Pages**, set **Source** to "Deploy from a branch", choose `main` and `/ (root)`, and save.
-3. In `_config.yml`, set `url` to `https://YOUR-USERNAME.github.io` and keep `baseurl: "/yubokou"` (use the repository name). For a custom domain, set `baseurl: ""` and add the domain in Settings → Pages.
+The site lives in the repository `yubokou/yubokou.github.io` and is published at **https://yubokou.github.io**.
 
-The site will be at `https://mondialito.github.io/yubokou/`.
+1. In the repository, open **Settings → Pages**, set **Source** to "Deploy from a branch", choose `main` and `/ (root)`, and save.
+2. `_config.yml` has `url: "https://yubokou.github.io"` and `baseurl: ""`. For a custom domain, keep `baseurl: ""`, change `url`, and add the domain in Settings → Pages.
 
 ## Secret
 

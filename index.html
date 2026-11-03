@@ -59,11 +59,12 @@ layout: default
 <section id="research" class="section band" aria-labelledby="research-h" data-stage="Research" data-key="1">
   <div class="wrap">
     <div class="section-head">
+      <p class="label mono">QUEST LOG</p>
       <h2 id="research-h" class="px">Research</h2>
     </div>
     <p class="research-intro">My research lies in human-computer interaction, computer-supported cooperative work, social computing, and video games. At present, I'm mostly exploring the intersection of governance and play in contexts such as video games, content moderation, and metaverse.</p>
 
-    <p class="sublabel mono">CURRENT PROJECTS</p>
+    <p class="sublabel mono">MAIN QUESTS · ACTIVE</p>
     <div class="quest-grid main">
       {% for q in main_quests %}
         <article class="quest-card notch" aria-labelledby="quest-{{ q.id }}">
@@ -80,7 +81,7 @@ layout: default
       {% endfor %}
     </div>
 
-    <p class="sublabel mono side-label">OTHER PROJECTS · LESS FREQUENTLY UPDATED</p>
+    <p class="sublabel mono side-label">SIDE QUESTS · LESS FREQUENTLY UPDATED</p>
     <div class="quest-grid side">
       {% for q in side_quests %}
         <article class="quest-card small" aria-labelledby="quest-{{ q.id }}">

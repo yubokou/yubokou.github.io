@@ -11,7 +11,7 @@ This is Yubo Kou's academic website (Jekyll on GitHub Pages; pushes to `main` de
 - Awards: add `award: "Best Paper Honorable Mention"` (or the exact award name) to the paper. The site shows it as a small note under that paper only; Yubo prefers a low-key site, so do not add a separate awards or honors section.
 - Students: `_data/people.yml`. Graduates move from `current` to `former` with `year` and `next`.
 - After every update, set `last_updated` in `_data/profile.yml` to today's date, e.g. "Nov 2, 2026".
-- Keep the style: the game feel comes from the visual design and interactions (pixel headings, dialog box, start menu, minimap, controls screen, 404 page). All headings, labels, and content use plain, professional academic language; do not add game jargon such as "quests", "party", or "cleared".
+- Keep the style: the game feel comes from the visual design and interactions (pixel headings, dialog box, start menu, minimap, controls screen, 404 page). Game jargon is used only where it pokes fun at Yubo himself (QUEST LOG, MAIN QUESTS, SIDE QUESTS for his research). Everything about students, teaching, and contact uses plain, professional academic language; never describe students with game terms such as "party" or "cleared".
 - Accessibility: keep alt text on images, visible focus states, and text contrast at WCAG AA.
 
 ## Checking a change

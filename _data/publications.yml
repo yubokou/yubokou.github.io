@@ -10,6 +10,7 @@
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 10, 7, Article GAMES034"
   type: paper
   featured: true
+  link: "https://doi.org/10.1145/3831286"
 
 - year: 2026
   title: "From Stream to Stake: Gamblification Practices and User Perceptions on Twitch"
@@ -17,6 +18,7 @@
   venue: "CHI PLAY"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 10, 7, Article GAMES031"
   type: paper
+  link: "https://doi.org/10.1145/3831281"
 
 - year: 2026
   title: "Making the Gig Economy Infrastructure Work: Gig Drivers’ Adaptive, Algorithmic, and Social Knowledge Practices"
@@ -24,6 +26,7 @@
   venue: "JCSCW"
   venue_full: "Computer Supported Cooperative Work, 35, 1"
   type: paper
+  link: "https://doi.org/10.1007/s10606-026-09536-6"
 
 - year: 2026
   title: "\"I usually profit because I know when to stop\": Understanding Teenagers’ Risk Perception and Mitigation Strategies of Gambling from Reddit"
@@ -31,6 +34,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction"
   type: paper
+  link: "https://doi.org/10.1145/3788059"
 
 - year: 2026
   title: "How Children Assess Digital Safety Risk in Gaming Platforms: A Case Study of Roblox"
@@ -47,6 +51,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026), Barcelona, Spain"
   type: paper
+  link: "https://doi.org/10.1145/3772318.3791462"
 
 - year: 2026
   title: "Why Creators Break Rules: Quantitative Evidence on Moral Disengagement and Self-Control"
@@ -55,6 +60,7 @@
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026), Barcelona, Spain"
   type: paper
   featured: true
+  link: "https://doi.org/10.1145/3772318.3791692"
 
 - year: 2026
   title: "Teen Vigilance: Navigating Risky Social Interactions on Discord"
@@ -63,6 +69,7 @@
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026), Barcelona, Spain"
   type: paper
   featured: true
+  link: "https://doi.org/10.1145/3772318.3790781"
 
 - year: 2026
   title: "Player Safety by Design: Co-Designing Child-Centered Safety Mechanisms with Children"
@@ -70,6 +77,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026), Barcelona, Spain"
   type: paper
+  link: "https://doi.org/10.1145/3772318.3791090"
 
 - year: 2026
   title: "Digital Risks and Coping Practices among Roblox Game Creators"
@@ -85,6 +93,7 @@
   venue: "IEEE S&P"
   venue_full: "2026 IEEE Symposium on Security and Privacy (S&P 2026)"
   type: paper
+  link: "https://doi.org/10.1109/sp63933.2026.00023"
 
 - year: 2026
   title: "Coding as Cultural Expression: Understanding How Children Draw on and Transform Cultural Resources"
@@ -92,6 +101,7 @@
   venue: "ISLS"
   venue_full: "the International Society of the Learning Sciences Annual Meeting (ISLS), Irvine, CA, USA"
   type: other
+  link: "https://doi.org/10.22318/icls2026.750592"
 
 - year: 2026
   title: "AI Safety in Children's Games: Evaluating Chatbots in Roblox"
@@ -106,6 +116,7 @@
   venue: "CHI PLAY"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 9, 6, Article GAMES031"
   type: paper
+  link: "https://doi.org/10.1145/3748626"
 
 - year: 2025
   title: "Gendered Toxicity in Competitive Gaming: Women’s Perceptions and Responses"
@@ -115,6 +126,7 @@
   type: paper
   award: "Best Paper Honorable Mention"
   featured: true
+  link: "https://doi.org/10.1145/3748610"
 
 - year: 2025
   title: "Fake Game but Real Play: Exploring Player Motivations and Coping Strategies with Fake Games"
@@ -122,6 +134,7 @@
   venue: "CHI PLAY"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 9, 6, Article GAMES021"
   type: paper
+  link: "https://doi.org/10.1145/3748616"
 
 - year: 2025
   title: "The State of Video Game Research in Computer-Supported Cooperative Work – A Systematic Literature Review"
@@ -129,6 +142,7 @@
   venue: "JCSCW"
   venue_full: "Computer Supported Cooperative Work, 34, 2, 587-638"
   type: paper
+  link: "https://doi.org/10.1007/s10606-025-09519-z"
 
 - year: 2025
   title: "How Predatory Monetization Designs Manifest in Child-Friendly Video Games"
@@ -143,6 +157,7 @@
   venue: "IDC"
   venue_full: "Proceedings of the 24th ACM Conference on Interaction Design and Children (IDC 2025), Reykjavík, Iceland"
   type: paper
+  link: "https://doi.org/10.1145/3713043.3728858"
 
 - year: 2025
   title: "Understanding Users’ Perception of Personally Identifiable Information"
@@ -150,6 +165,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025), Yokohama, Japan"
   type: paper
+  link: "https://doi.org/10.1145/3706598.3713783"
 
 - year: 2025
   title: "“The System is Made to Inherently Push Child Gambling in my Opinion”: Child Safety, Monetization, and Moderation on Roblox"
@@ -158,6 +174,7 @@
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025), Yokohama, Japan"
   type: paper
   award: "Best Paper Honorable Mention"
+  link: "https://doi.org/10.1145/3706598.3713170"
 
 - year: 2025
   title: "Weighing Benefits and Harms: Parental Mediation on Social Video Platforms"
@@ -165,6 +182,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2025), Yokohama, Japan"
   type: paper
+  link: "https://doi.org/10.1145/3706598.3713422"
 
 - year: 2025
   title: "Children’s Online Safety Risks and Ethical Considerations in XR Games"
@@ -179,6 +197,7 @@
   venue: "Interactions"
   venue_full: "Interactions, 32, 3, 34-39"
   type: other
+  link: "https://doi.org/10.1145/3723137"
 
 - year: 2024
   title: "Toxicity by Game Design: How Players Perceive the Influence of Game Design on Toxicity"
@@ -186,6 +205,7 @@
   venue: "CHI PLAY"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 8, CHI PLAY"
   type: paper
+  link: "https://doi.org/10.1145/3677110"
 
 - year: 2024
   title: "Harmful Design in User-Generated Games and its Ethical and Governance Challenges: An Investigation of Design Co-Ideation of Game Creators on Roblox"
@@ -194,6 +214,7 @@
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 8, CHI PLAY"
   type: paper
   award: "Best Paper Honorable Mention"
+  link: "https://doi.org/10.1145/3677076"
 
 - year: 2024
   title: "“Wow another fake game from YouTube ad“: Unpacking Fake Games Through a Mixed-Methods Investigation"
@@ -202,6 +223,7 @@
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 8, CHI PLAY"
   type: paper
   award: "Best Paper Honorable Mention"
+  link: "https://doi.org/10.1145/3677115"
 
 - year: 2024
   title: "Casual Competition by Design: A Study of the All Random All Mid (ARAM) Mode in League of Legends"
@@ -209,6 +231,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction"
   type: paper
+  link: "https://doi.org/10.1145/3686992"
 
 - year: 2024
   title: "Collective Privacy Sensemaking on Social Media about Period and Fertility Tracking post Roe v. Wade"
@@ -216,6 +239,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 8, CSCW1"
   type: paper
+  link: "https://doi.org/10.1145/3641000"
 
 - year: 2024
   title: "The Ecology of Harmful Design: Risk and Safety of Game Making on a Metaverse Platform"
@@ -223,6 +247,7 @@
   venue: "DIS"
   venue_full: "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2024), Copenhagen, Denmark"
   type: paper
+  link: "https://doi.org/10.1145/3643834.3660678"
 
 - year: 2024
   title: "Labeling in the Dark: Exploring Content Creators’ and Consumers’ Experiences with Content Classification for Child Safety on YouTube"
@@ -230,6 +255,7 @@
   venue: "DIS"
   venue_full: "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2024), Copenhagen, Denmark"
   type: paper
+  link: "https://doi.org/10.1145/3643834.3661565"
 
 - year: 2024
   title: "“At the end of the day, I am accountable”: Gig Workers’ Self-Tracking for Multi-Dimensional Accountability Management"
@@ -237,6 +263,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems 2024 (CHI 2024), Honolulu, HI"
   type: paper
+  link: "https://doi.org/10.1145/3613904.3642151"
 
 - year: 2024
   title: "“Our Users’ Privacy is Paramount to Us”: A Discourse Analysis of How Period and Fertility Tracking App Companies Address the Roe v Wade Overturn"
@@ -244,6 +271,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems 2024 (CHI 2024), Honolulu, HI"
   type: paper
+  link: "https://doi.org/10.1145/3613904.3642384"
 
 - year: 2024
   title: "Trading as Gambling: Social Investing and Financial Risks on the r/WallStreetBets subreddit"
@@ -251,6 +279,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems 2024 (CHI 2024), Honolulu, HI"
   type: paper
+  link: "https://doi.org/10.1145/3613904.3642768"
 
 - year: 2024
   title: "Community Begins Where Moderation Ends: Peer Support and Its Implications for Community-Based Rehabilitation"
@@ -258,6 +287,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems 2024 (CHI 2024), Honolulu, HI"
   type: paper
+  link: "https://doi.org/10.1145/3613904.3642675"
 
 - year: 2024
   title: "Understanding and Mitigating Harmful Design in User-Generated Virtual Worlds"
@@ -272,6 +302,7 @@
   venue: "IP&M"
   venue_full: "Information Processing & Management, 60, 6"
   type: paper
+  link: "https://doi.org/10.1016/j.ipm.2023.103516"
 
 - year: 2023
   title: "How Users Experience Moderation?: A Systematic Literature Review"
@@ -279,6 +310,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 7, CSCW2, 278"
   type: paper
+  link: "https://doi.org/10.1145/3610069"
 
 - year: 2023
   title: "\"Defaulting to boilerplate answers, they didn’t engage in a genuine conversation\": Dimensions of Transparency Design in Creator Moderation"
@@ -286,6 +318,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 7, CSCW1, 44"
   type: paper
+  link: "https://doi.org/10.1145/3579477"
 
 - year: 2023
   title: "Harmful Design in the Metaverse and How to Mitigate it: A Case Study of User-Generated Virtual Worlds on Roblox"
@@ -293,6 +326,7 @@
   venue: "DIS"
   venue_full: "Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS), Pittsburgh, USA"
   type: paper
+  link: "https://doi.org/10.1145/3563657.3595960"
 
 - year: 2023
   title: "Transparency, Fairness, and Coping: How Players Experience Moderation in Multiplayer Online Games"
@@ -300,6 +334,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Hamburg, Germany"
   type: paper
+  link: "https://doi.org/10.1145/3544548.3581097"
 
 - year: 2023
   title: "Multi-Platform Content Creation: The Configuration of Creator Ecology through Platform Prioritization, Content Synchronization, and Audience Management"
@@ -307,6 +342,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Hamburg, Germany"
   type: paper
+  link: "https://doi.org/10.1145/3544548.3581106"
 
 - year: 2022
   title: "Esports Governance: An Analysis of Rule Enforcement in League of Legends"
@@ -314,6 +350,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 6, CSCW2, Article 440"
   type: paper
+  link: "https://doi.org/10.1145/3555541"
 
 - year: 2022
   title: "\"I'm not sure what difference is between their content and mine, other than the person itself\": A Study of Fairness Perception of Content Moderation on YouTube"
@@ -321,6 +358,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 6, CSCW2, Article 425"
   type: paper
+  link: "https://doi.org/10.1145/3555150"
 
 - year: 2022
   title: "\"As Uploaders, We Have the Responsibility\": Individualized Professionalization of Bilibili Uploaders"
@@ -328,6 +366,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), New Orleans, LA, USA"
   type: paper
+  link: "https://doi.org/10.1145/3491102.3517509"
 
 - year: 2022
   title: "“I am not a YouTuber who can make whatever video I want. I have to keep appeasing algorithms”: Bureaucracy of Creator Moderation on YouTube"
@@ -335,6 +374,7 @@
   venue: "CSCW Companion"
   venue_full: "ACM Conference Companion on Computer Supported Cooperative Work & Social Computing, Online"
   type: other
+  link: "https://doi.org/10.1145/3500868.3559445"
 
 - year: 2021
   title: "With Help from Afar: Cross-Local Communication in an Online COVID-19 Pandemic Community"
@@ -342,6 +382,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 5, CSCW2, Article 321"
   type: paper
+  link: "https://doi.org/10.1145/3476062"
 
 - year: 2021
   title: "\"How advertiser-friendly is my video?\": YouTuber’s Socioeconomic Interactions with Algorithmic Content Moderation"
@@ -349,6 +390,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 5, CSCW2, Article 429"
   type: paper
+  link: "https://doi.org/10.1145/3479573"
 
 - year: 2021
   title: "Punishment and Its Discontents: An Analysis of Permanent Ban in an Online Game Community"
@@ -356,6 +398,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 5, CSCW2, Article 334"
   type: paper
+  link: "https://doi.org/10.1145/3476075"
 
 - year: 2021
   title: "Flag and Flaggability in Automated Moderation: The Case of Reporting Toxic Behavior in an Online Game Community"
@@ -363,6 +406,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Yokohama, Japan"
   type: paper
+  link: "https://doi.org/10.1145/3411764.3445279"
 
 - year: 2021
   title: "Exploring and Promoting Diagnostic Transparency and Explainability in Online Symptom Checkers"
@@ -370,6 +414,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Yokohama, Japan"
   type: paper
+  link: "https://doi.org/10.1145/3411764.3445101"
 
 - year: 2021
   title: "The Medical Authority of AI: A Study of AI-enabled Consumer-Facing Health Technology"
@@ -377,6 +422,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Yokohama, Japan"
   type: paper
+  link: "https://doi.org/10.1145/3411764.3445657"
 
 - year: 2020
   title: "Mediating Community-AI Interaction through Situated Explanation: The Case of AI-Led Moderation"
@@ -384,6 +430,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 4, CSCW2, Article 102"
   type: paper
+  link: "https://doi.org/10.1145/3415173"
 
 - year: 2020
   title: "Emotion Regulation in eSports Gaming: a Qualitative Study of League of Legends"
@@ -391,6 +438,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 4, CSCW2, Article 158"
   type: paper
+  link: "https://doi.org/10.1145/3415229"
 
 - year: 2020
   title: "Mobile Collocated Gaming: Collaborative Play and Meaning-Making on a University Campus"
@@ -398,6 +446,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 4, CSCW2, Article 142"
   type: paper
+  link: "https://doi.org/10.1145/3415213"
 
 - year: 2020
   title: "Toxic Behaviors in Team-Based Competitive Gaming: The Case of League of Legends"
@@ -405,6 +454,7 @@
   venue: "CHI PLAY"
   venue_full: "ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play, Ottawa, Canada"
   type: paper
+  link: "https://doi.org/10.1145/3410404.3414243"
 
 - year: 2019
   title: "Live Streaming as Co-Performance: Dynamics between Center and Periphery in Theatrical Engagement"
@@ -412,6 +462,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 3, CSCW, Article 64"
   type: paper
+  link: "https://doi.org/10.1145/3359166"
 
 - year: 2019
   title: "Culturally-Embedded Visual Literacy: A Study of Impression Management via Emoticon, Emoji, Sticker, and Meme on Social Media in China"
@@ -419,6 +470,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 3, CSCW, Article 68"
   type: paper
+  link: "https://doi.org/10.1145/3359170"
 
 - year: 2019
   title: "Co-Producing, Curating, and Defining Design Knowledge in an Online Practitioner Community"
@@ -426,6 +478,7 @@
   venue: "CoDesign"
   venue_full: "CoDesign, 15, 1, 41-58"
   type: paper
+  link: "https://doi.org/10.1080/15710882.2018.1563193"
 
 - year: 2019
   title: "Understanding Patient Information Needs about their Clinical Laboratory Results: A Study of Social Q&A Site"
@@ -433,6 +486,7 @@
   venue: "MedInfo"
   venue_full: "World Congress of Medical and Health Informatics (MedInfo), Lyon, France"
   type: paper
+  link: "https://doi.org/10.3233/shti190458"
 
 - year: 2019
   title: "“Just my intuition”: Awareness of versus Acting on Political News Misinformation"
@@ -440,6 +494,7 @@
   venue: "iConference"
   venue_full: "iConference 2019, Washington DC, USA"
   type: paper
+  link: "https://doi.org/10.1007/978-3-030-15742-5_45"
 
 - year: 2019
   title: "Turn to the Self in Human-Computer Interaction: Care of the Self in Negotiating the Human-Technology Relationship"
@@ -447,6 +502,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Glasgow, UK"
   type: paper
+  link: "https://doi.org/10.1145/3290605.3300711"
 
 - year: 2019
   title: "A Practice-Led Account of the Conceptual Evolution of UX Knowledge"
@@ -454,6 +510,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Glasgow, UK"
   type: paper
+  link: "https://doi.org/10.1145/3290605.3300279"
 
 - year: 2018
   title: "Understanding Social Roles in an Online Community of Volatile Practice: A Study of User Experience Practitioners on Reddit"
@@ -461,6 +518,7 @@
   venue: "ACM TSC"
   venue_full: "ACM Transactions on Social Computing, 1, 4, 1-22"
   type: paper
+  link: "https://doi.org/10.1145/3283827"
 
 - year: 2018
   title: "Entangled with Numbers: Quantified Self and Others in a Team-Based Online Game"
@@ -469,6 +527,7 @@
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 2, CSCW, Article 93"
   type: paper
   award: "Best Paper Honorable Mention"
+  link: "https://doi.org/10.1145/3274362"
 
 - year: 2018
   title: "\"What do you recommend a complete beginner like me to practice?\": Professional Self-Disclosure in an Online Community"
@@ -476,6 +535,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 2, CSCW, Article 94"
   type: paper
+  link: "https://doi.org/10.1145/3274363"
 
 - year: 2018
   title: "Tell Me Before You Stream Me: Managing Information Disclosure in Video Game Live Streaming"
@@ -483,6 +543,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 2, CSCW, Article 107"
   type: paper
+  link: "https://doi.org/10.1145/3274376"
 
 - year: 2018
   title: "Distinctions between the Communication of Experiential and Academic Design Knowledge: A Linguistic Analysis"
@@ -490,6 +551,7 @@
   venue: "DRS"
   venue_full: "Design Research Society (DRS), Limerick, Ireland"
   type: paper
+  link: "https://doi.org/10.21606/drs.2018.532"
 
 - year: 2018
   title: "The Politics of Titling: The Representation of Countries in CHI Papers"
@@ -497,6 +559,7 @@
   venue: "alt.chi"
   venue_full: "alt.chi 2018, Montréal, Canada"
   type: paper
+  link: "https://doi.org/10.1145/3170427.3188409"
 
 - year: 2018
   title: "Complex Mediation in the Formation of Political Opinions"
@@ -505,6 +568,7 @@
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Montréal, Canada"
   type: paper
   award: "Best Paper Honorable Mention"
+  link: "https://doi.org/10.1145/3173574.3174210"
 
 - year: 2018
   title: "Playing with Streakiness in Online Games: How Players Perceive and React to Winning and Losing Streaks in League of Legends"
@@ -512,6 +576,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Montréal, Canada"
   type: paper
+  link: "https://doi.org/10.1145/3173574.3174152"
 
 - year: 2018
   title: "Multidimensional Risk Communication: Public discourse on Risks during an Emerging Epidemic"
@@ -519,6 +584,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Montréal, Canada"
   type: paper
+  link: "https://doi.org/10.1145/3173574.3173788"
 
 - year: 2018
   title: "The Dark (Patterns) Side of UX Design"
@@ -526,6 +592,7 @@
   venue: "CHI"
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Montréal, Canada"
   type: paper
+  link: "https://doi.org/10.1145/3173574.3174108"
 
 - year: 2018
   title: "Towards Professionalization in an Online Community of Emerging Occupation: Discourses among UX Practitioners"
@@ -533,6 +600,7 @@
   venue: "GROUP"
   venue_full: "the ACM International Conference on Supporting Group Work (GROUP), FL, USA"
   type: paper
+  link: "https://doi.org/10.1145/3148330.3148352"
 
 - year: 2018
   title: "Knowledge Production and Social Roles in an Online Community of Emerging Occupation: A Study of User Experience Practitioners on Reddit"
@@ -540,6 +608,7 @@
   venue: "HICSS"
   venue_full: "Hawaii International Conference on System Sciences (HICSS), HI, USA"
   type: paper
+  link: "https://doi.org/10.24251/hicss.2018.261"
 
 - year: 2018
   title: "Exploring the Knowledge Creation Practices of UX Designers on Stack Exchange"
@@ -547,6 +616,7 @@
   venue: "DIS Companion"
   venue_full: "ACM Conference Companion on Designing Interactive Systems (DIS), Hong Kong, China"
   type: other
+  link: "https://doi.org/10.1145/3197391.3205414"
 
 - year: 2017
   title: "Supporting Distributed Critique through Interpretation and Sense-making in an Online Creative Community"
@@ -554,6 +624,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 1, CSCW, Article 60"
   type: paper
+  link: "https://doi.org/10.1145/3134695"
 
 - year: 2017
   title: "Conspiracy Talk on Social Media: Collective Sensemaking during a Public Health Crisis"
@@ -561,6 +632,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 1, CSCW, Article 61"
   type: paper
+  link: "https://doi.org/10.1145/3134696"
 
 - year: 2017
   title: "Managing Disruptive Behavior through Non-Hierarchical Governance: Crowdsourcing in League of Legends and Weibo"
@@ -568,6 +640,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 1, CSCW, Article 62"
   type: paper
+  link: "https://doi.org/10.1145/3134697"
 
 - year: 2017
   title: "Investigating Support Seeking from Peers for Pregnancy in Online Health Communities"
@@ -575,6 +648,7 @@
   venue: "CSCW"
   venue_full: "Proceedings of the ACM on Human-Computer Interaction, 1, CSCW, Article 50"
   type: paper
+  link: "https://doi.org/10.1145/3134685"
 
 - year: 2017
   title: "One Social Movement, Two Social Media Sites: A Comparative Study of Public Discourses"
@@ -582,6 +656,7 @@
   venue: "JCSCW"
   venue_full: "Computer Supported Cooperative Work, 26, 4-6, 807-836"
   type: paper
+  link: "https://doi.org/10.1007/s10606-017-9284-y"
 
 - year: 2017
   title: "Understanding the Patterns of Health Information Dissemination on Social Media during the Zika Outbreak"
@@ -596,6 +671,7 @@
   venue: "FDG"
   venue_full: "Foundations of Digital Games (FDG), Hyannis, MA, USA"
   type: paper
+  link: "https://doi.org/10.1145/3102071.3102078"
 
 - year: 2017
   title: "Exploring Offline Context and Consciousness in Social Media Use"
@@ -603,6 +679,7 @@
   venue: "INTERACT"
   venue_full: "International Conference on Human-Computer Interaction (INTERACT), Mumbai, India"
   type: paper
+  link: "https://doi.org/10.1007/978-3-319-68059-0_8"
 
 - year: 2017
   title: "A Confucian Look at Internet Censorship in China"
@@ -610,6 +687,7 @@
   venue: "INTERACT"
   venue_full: "International Conference on Human-Computer Interaction (INTERACT), Mumbai, India"
   type: paper
+  link: "https://doi.org/10.1007/978-3-319-67744-6_25"
 
 - year: 2017
   title: "Managing Uncertainty: Using Social Media for Risk Assessment during a Public Health Crisis"
@@ -618,6 +696,7 @@
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), Denver, CO, USA"
   type: paper
   award: "Best Paper Honorable Mention"
+  link: "https://doi.org/10.1145/3025453.3025891"
 
 - year: 2017
   title: "When Code Governs Community"
@@ -625,6 +704,7 @@
   venue: "HICSS"
   venue_full: "Hawaii International Conference on System Sciences (HICSS), HI, USA"
   type: paper
+  link: "https://doi.org/10.24251/hicss.2017.249"
 
 - year: 2017
   title: "Resisting the Censorship Infrastructure in China"
@@ -632,6 +712,7 @@
   venue: "HICSS"
   venue_full: "Hawaii International Conference on System Sciences (HICSS), HI, USA"
   type: paper
+  link: "https://doi.org/10.24251/hicss.2017.282"
 
 - year: 2017
   title: "In Search of UX Translators: Analyzing Researcher-Practitioner Interactions on Twitter"
@@ -639,6 +720,7 @@
   venue: "DIS Companion"
   venue_full: "ACM Conference Companion on Designing Interactive Systems (DIS), Edinburgh, UK"
   type: other
+  link: "https://doi.org/10.1145/3064857.3079129"
 
 - year: 2017
   title: "UX Practitioners’ Engagement with Intermediate-Level Knowledge"
@@ -646,6 +728,7 @@
   venue: "DIS Companion"
   venue_full: "ACM Conference Companion on Designing Interactive Systems (DIS), Edinburgh, UK"
   type: other
+  link: "https://doi.org/10.1145/3064857.3079110"
 
 - year: 2017
   title: "The Rise and Fall of Moral Labor in an Online Game Community"
@@ -653,6 +736,7 @@
   venue: "CSCW Companion"
   venue_full: "ACM Conference Companion on Computer Supported Cooperative Work & Social Computing, Portland, OR, USA"
   type: other
+  link: "https://doi.org/10.1145/3022198.3026312"
 
 - year: 2016
   title: "Rethinking Civic Computing in China"
@@ -660,6 +744,7 @@
   venue: "First Monday"
   venue_full: "First Monday, 21(7)"
   type: paper
+  link: "https://doi.org/10.5210/fm.v21i7.6655"
 
 - year: 2016
   title: "Ranking Practices and Distinction in League of Legends"
@@ -667,6 +752,7 @@
   venue: "CHI PLAY"
   venue_full: "ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play, Austin, TX, USA"
   type: paper
+  link: "https://doi.org/10.1145/2967934.2968078"
 
 - year: 2016
   title: "Mediating the Undercurrents: Using Social Media to Sustain a Social Movement"
@@ -675,6 +761,7 @@
   venue_full: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), San Jose, CA, USA"
   type: paper
   award: "Best Paper Honorable Mention"
+  link: "https://doi.org/10.1145/2858036.2858186"
 
 - year: 2015
   title: "Developing Intuitive Gestures for Spatial Interaction with Large Public Displays"
@@ -682,6 +769,7 @@
   venue: "HCII"
   venue_full: "HCI International, Los Angeles, CA, USA"
   type: paper
+  link: "https://doi.org/10.1007/978-3-319-20804-6_16"
 
 - year: 2015
   title: "I Am Being Watched by The Tribunal-Trust and Control in Multiplayer Online Battle Arena Games"
@@ -697,6 +785,7 @@
   venue_full: "Hawaii International Conference on System Sciences (HICSS), Kauai, HI, USA"
   type: paper
   award: "Best Paper Nomination"
+  link: "https://doi.org/10.1109/hicss.2015.213"
 
 - year: 2014
   title: "Playing with Strangers: Understanding Temporary Teams in league of legends"
@@ -704,6 +793,7 @@
   venue: "CHI PLAY"
   venue_full: "ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play, Toronto, Canada"
   type: paper
+  link: "https://doi.org/10.1145/2658537.2658538"
 
 - year: 2014
   title: "Governance in League of Legends: A Hybrid System"
@@ -726,6 +816,7 @@
   venue: "WAIM"
   venue_full: "International Conference on Web-Age Information Management (WAIM), Jiuzhaigou, China"
   type: paper
+  link: "https://doi.org/10.1007/978-3-642-14246-8_30"
 
 - year: 2009
   title: "A Task Mining Strategy in Personal Dataspace Management"
@@ -741,3 +832,4 @@
   venue_full: "Web Information Systems and Applications Conference (WISA), Xuzhou, China"
   type: paper
   award: "Best Paper"
+  link: "https://doi.org/10.1109/wisa.2009.39"

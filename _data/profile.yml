@@ -8,8 +8,8 @@ titles:
 dialog: "Hi! I study how governance and play intersect in video games, content moderation, and metaverse platforms, and how to keep online play safe, fair, and fun."
 
 # Photo: put the file in assets/img/ and write its path here, e.g. "assets/img/yubo.jpg". Leave "" to show a placeholder.
-photo: ""
-photo_alt: "Portrait of Yubo Kou"
+photo: "assets/img/yubo.jpg"
+photo_alt: "Yubo Kou smiling, holding a game controller"
 
 # Character sheet next to the photo.
 sheet:

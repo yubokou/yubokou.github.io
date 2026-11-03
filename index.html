@@ -6,7 +6,7 @@ layout: default
 {% assign side_quests = site.data.quests | where: "kind", "side" %}
 {% assign first_quest = main_quests | first %}
 
-<section class="hero" aria-labelledby="hero-h">
+<section id="start" class="hero" aria-labelledby="hero-h" data-stage="Start">
   <div class="wrap hero-row">
     <div class="hero-text">
       <p class="eyebrow mono">NOW PLAYING · PENN STATE IST</p>
@@ -25,7 +25,7 @@ layout: default
         <a href="#students"><span class="cur" aria-hidden="true">▸</span>Students</a>
         <a href="#contact"><span class="cur" aria-hidden="true">▸</span>Contact</a>
       </nav>
-      <p class="hint mono" aria-hidden="true">↑ ↓ SELECT · ENTER CONFIRM</p>
+      <p class="hint mono">↑ ↓ SELECT · ENTER CONFIRM · <button type="button" class="linkish mono" data-controls-open>? CONTROLS</button></p>
     </div>
 
     <aside class="profile" aria-label="Profile">
@@ -46,7 +46,7 @@ layout: default
   </div>
 </section>
 
-<section class="section" aria-labelledby="about-h">
+<section id="about" class="section" aria-labelledby="about-h" data-stage="About">
   <div class="wrap about-row">
     <div class="section-head">
       <p class="label mono">BACKSTORY</p>
@@ -58,7 +58,7 @@ layout: default
   </div>
 </section>
 
-<section id="research" class="section band" aria-labelledby="research-h">
+<section id="research" class="section band" aria-labelledby="research-h" data-stage="Research" data-key="1">
   <div class="wrap">
     <div class="section-head">
       <p class="label mono">QUEST LOG</p>
@@ -105,7 +105,7 @@ layout: default
   </div>
 </section>
 
-<section id="publications" class="section" aria-labelledby="pubs-h">
+<section id="publications" class="section" aria-labelledby="pubs-h" data-stage="Publications" data-key="2">
   <div class="wrap">
     <div class="section-head split">
       <div>
@@ -124,7 +124,7 @@ layout: default
   </div>
 </section>
 
-<section class="section tight-top" aria-labelledby="ach-h">
+<section id="achievements" class="section tight-top" aria-labelledby="ach-h" data-stage="Achievements" data-key="3">
   <div class="wrap">
     <div class="section-head">
       <p class="label mono">ACHIEVEMENTS</p>
@@ -139,7 +139,7 @@ layout: default
   </div>
 </section>
 
-<section id="students" class="section band" aria-labelledby="students-h">
+<section id="students" class="section band" aria-labelledby="students-h" data-stage="Students" data-key="4">
   <div class="wrap">
     <div class="section-head">
       <p class="label mono">PARTY</p>
@@ -166,7 +166,7 @@ layout: default
   </div>
 </section>
 
-<section id="teaching" class="section" aria-labelledby="teach-h">
+<section id="teaching" class="section" aria-labelledby="teach-h" data-stage="Teaching" data-key="5">
   <div class="wrap">
     <div class="section-head">
       <p class="label mono">TRAINING GROUNDS</p>
@@ -180,7 +180,7 @@ layout: default
   </div>
 </section>
 
-<section id="contact" class="contact" aria-labelledby="contact-h">
+<section id="contact" class="contact" aria-labelledby="contact-h" data-stage="Contact" data-key="6">
   <div class="wrap contact-row">
     <div class="contact-text">
       <p class="mono save">▸ SAVE POINT<span class="blink" aria-hidden="true">_</span></p>
@@ -193,3 +193,18 @@ layout: default
     </div>
   </div>
 </section>
+
+<nav class="minimap" aria-label="Page map" data-minimap>
+  <p class="mm-head mono"><span>MAP</span><span class="mm-cur" data-mm-cur aria-live="off">START</span></p>
+  <div class="mm-grid">
+    <svg class="mm-lines" viewBox="0 0 130 46" aria-hidden="true" focusable="false"><polyline points="11,8 119,8 119,38 11,38"></polyline></svg>
+    <a class="room" href="#start" data-room="start" title="Start" style="left:0;top:0"><span class="sr">Start</span></a>
+    <a class="room" href="#about" data-room="about" title="About" style="left:36px;top:0"><span class="sr">About</span></a>
+    <a class="room" href="#research" data-room="research" title="Research" style="left:72px;top:0"><span class="sr">Research</span></a>
+    <a class="room" href="#publications" data-room="publications" title="Publications" style="left:108px;top:0"><span class="sr">Publications</span></a>
+    <a class="room" href="#achievements" data-room="achievements" title="Achievements" style="left:108px;top:30px"><span class="sr">Achievements</span></a>
+    <a class="room" href="#students" data-room="students" title="Students" style="left:72px;top:30px"><span class="sr">Students</span></a>
+    <a class="room" href="#teaching" data-room="teaching" title="Teaching" style="left:36px;top:30px"><span class="sr">Teaching</span></a>
+    <a class="room" href="#contact" data-room="contact" title="Contact" style="left:0;top:30px"><span class="sr">Contact</span></a>
+  </div>
+</nav>

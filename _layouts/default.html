@@ -14,7 +14,7 @@
   try { if (sessionStorage.getItem('yk-retro') === '1') document.documentElement.classList.add('retro'); } catch (e) {}
 </script>
 </head>
-<body>
+<body data-home="{{ '/' | relative_url }}" data-pubs="{{ '/publications/' | relative_url }}">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap header-row">
@@ -37,10 +37,28 @@
 <footer class="site-footer">
   <div class="wrap footer-row mono">
     <span>© {{ site.time | date: '%Y' }} {{ site.data.profile.name }} · Last saved: {{ site.data.profile.last_updated }}</span>
-    <span>Thanks for visiting. GG, well played.</span>
+    <span><button type="button" class="linkish mono" data-controls-open>[?] Controls</button> · Thanks for visiting. GG, well played.</span>
   </div>
 </footer>
 <p class="retro-toast mono" role="status" aria-live="polite"></p>
+<div class="stage-card" aria-hidden="true"><p class="mono">NOW ENTERING</p><p class="px" data-stage-name></p></div>
+<dialog class="controls" aria-labelledby="ctrl-h" data-controls>
+  <p class="label mono">CONTROLS</p>
+  <h2 id="ctrl-h" class="px">How to play</h2>
+  <dl class="keys">
+    <dt class="mono">↑ ↓ · Enter</dt><dd>Move through menus and the quest log</dd>
+    <dt class="mono">1 – 6</dt><dd>Jump to Research, Publications, Achievements, Students, Teaching, Contact</dd>
+    <dt class="mono">0</dt><dd>Back to the start</dd>
+    <dt class="mono">P</dt><dd>Full publication list</dd>
+    <dt class="mono">M</dt><dd>Show or hide the map</dd>
+    <dt class="mono">?</dt><dd>Open this screen</dd>
+    <dt class="mono">↑↑↓↓←→←→ B A</dt><dd>???</dd>
+  </dl>
+  <div class="controls-actions">
+    <button type="button" class="qbtn" data-shortcuts-toggle aria-pressed="true"><span class="cur" aria-hidden="true">▸</span>Keyboard shortcuts: ON</button>
+    <button type="button" class="qbtn" data-controls-close><span class="cur" aria-hidden="true">▸</span>Resume</button>
+  </div>
+</dialog>
 <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
 </body>
 </html>

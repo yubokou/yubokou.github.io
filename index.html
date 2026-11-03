@@ -124,7 +124,7 @@ layout: default
       {% for m in site.data.people.current %}
         <li class="member">
           {% if m.photo %}<img class="avatar notch" src="{{ m.photo | relative_url }}" alt="" width="240" height="240">{% else %}<div class="avatar notch" aria-hidden="true"><span class="px">{{ m.initials }}</span></div>{% endif %}
-          <p class="pname">{{ m.name }}</p>
+          <p class="pname">{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</p>
           <p class="mono meta">{{ m.degree }} · joined {{ m.since }}</p>
           {% if m.note %}<p class="mono meta">{{ m.note }}</p>{% endif %}
         </li>
@@ -133,7 +133,7 @@ layout: default
     <div class="former">
       <p class="sublabel mono">ALUMNI</p>
       {% for f in site.data.people.former %}
-        <p class="former-row"><strong>{{ f.name }}</strong> <span class="meta">{{ f.degree }}, {{ f.year }}{% if f.next != "" %} · {{ f.next }}{% endif %}</span></p>
+        <p class="former-row"><strong>{% if f.url %}<a href="{{ f.url }}">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</strong> <span class="meta">{{ f.degree }}, {{ f.year }}{% if f.next != "" %} · {{ f.next }}{% endif %}</span></p>
       {% endfor %}
       <p class="meta">Master's and undergraduate researchers: {{ site.data.people.other | join: " · " }}</p>
     </div>

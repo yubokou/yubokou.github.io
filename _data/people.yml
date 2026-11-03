@@ -1,5 +1,5 @@
 # Students. Move someone from "current" to "former" when they graduate.
-# initials are shown when there is no photo. photo: "assets/img/NAME.jpg" (optional).
+# initials are shown when there is no photo. photo: "assets/img/NAME.jpg" (optional). url: personal homepage (optional; the name becomes a link).
 current:
   - name: "Kexin Chen"
     initials: "KC"

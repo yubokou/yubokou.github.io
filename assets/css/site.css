@@ -164,6 +164,8 @@ img { max-width: 100%; display: block; }
 .avatar span { font-size: 40px; color: var(--teal); }
 .member:hover .avatar { outline-color: var(--gold); }
 .pname { font-size: 18px; font-weight: 600; }
+.pname a, .former-row a { color: var(--text); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
+.pname a:hover, .former-row a:hover { color: var(--gold); text-decoration-color: var(--gold); }
 .member:hover .pname::before { content: '▸ '; color: var(--gold); }
 .former { margin-top: 48px; display: flex; flex-direction: column; gap: 12px; }
 .former p { margin: 0; }

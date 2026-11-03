@@ -5,7 +5,7 @@ titles:
   - "College of Information Sciences and Technology, Penn State"
 
 # The speech bubble on the homepage (first person, one or two sentences).
-dialog: "Hi! I study how governance and play intersect in video games, content moderation, and metaverse platforms, and how to keep online play safe, fair, and fun."
+dialog: "Hi, I'm Yubo. When it comes to gaming, I'm a gamer first and a researcher second."
 
 # Photo: put the file in assets/img/ and write its path here, e.g. "assets/img/yubo.jpg". Leave "" to show a placeholder.
 photo: "assets/img/yubo.jpg"
@@ -24,8 +24,8 @@ sheet:
     value: "E353 Westgate Building"
 
 bio:
-  - "I am the Haile Family Early Career Professor and an Associate Professor in the College of Information Sciences and Technology at Penn State. My research lies at the intersection of human-computer interaction, computer-supported cooperative work, and social computing. I use human-centered design methods to understand and design for digital safety on online platforms, such as video games, virtual worlds, and social media, and to inform the moderation mechanisms and platform policies that govern them."
-  - "I co-direct the Health and Play Lab with Xinning Gui. Before Penn State, I was an Assistant Professor at Florida State University and a Postdoctoral Research Associate at Purdue University. I received my PhD in Information and Computer Sciences from the University of California, Irvine."
+  - "I'm an associate professor in the College of Information Sciences and Technology at the Pennsylvania State University (Penn State). My research lies in the intersection of HCI, CSCW, and social computing. My most current research interests are governance and play."
+  - "Xinning Gui and I co-run the Health and Play Lab at Penn State. Before Penn State, I was an assistant professor at Florida State University and a postdoc at Purdue University. I received my PhD in Information and Computer Sciences from UC Irvine."
 
 email: "yubokou@psu.edu"
 office:

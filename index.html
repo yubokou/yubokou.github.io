@@ -4,7 +4,6 @@ layout: default
 {% assign profile = site.data.profile %}
 {% assign main_quests = site.data.quests | where: "kind", "main" %}
 {% assign side_quests = site.data.quests | where: "kind", "side" %}
-{% assign first_quest = main_quests | first %}
 
 <section id="start" class="hero" aria-labelledby="hero-h" data-stage="Start">
   <div class="wrap hero-row">
@@ -64,43 +63,34 @@ layout: default
       <p class="label mono">QUEST LOG</p>
       <h2 id="research-h" class="px">Research</h2>
     </div>
-    <div class="quests" data-quests>
-      <div class="quest-list">
-        <div role="group" aria-label="Main quests">
-          <p class="sublabel mono">MAIN QUESTS</p>
-          {% for q in main_quests %}
-            <button type="button" class="qbtn{% if q.id == first_quest.id %} on{% endif %}" data-quest="{{ q.id }}" aria-pressed="{% if q.id == first_quest.id %}true{% else %}false{% endif %}" aria-controls="quest-{{ q.id }}"><span class="cur" aria-hidden="true">▸</span>{{ q.short }}</button>
-          {% endfor %}
-        </div>
-        <div role="group" aria-label="Side quests">
-          <p class="sublabel mono">SIDE QUESTS</p>
-          {% for q in side_quests %}
-            <button type="button" class="qbtn" data-quest="{{ q.id }}" aria-pressed="false" aria-controls="quest-{{ q.id }}"><span class="cur" aria-hidden="true">▸</span>{{ q.short }}</button>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="quest-panels">
-        {% for q in site.data.quests %}
-          <article id="quest-{{ q.id }}" class="quest-panel notch{% if q.id == first_quest.id %} on{% endif %}">
-            <p class="label mono">{% if q.kind == "main" %}MAIN QUEST · IN PROGRESS{% else %}SIDE QUEST{% endif %}</p>
-            <h3 class="px">{{ q.title }}</h3>
-            <p class="quest-desc">{{ q.description }}</p>
-            {% if q.objectives %}
-              <div>
-                <p class="sublabel mono">OBJECTIVES</p>
-                <ul class="objectives">{% for o in q.objectives %}<li><span aria-hidden="true">◆</span>{{ o }}</li>{% endfor %}</ul>
-              </div>
-            {% endif %}
-            {% if q.papers %}
-              <div>
-                <p class="sublabel mono">SELECTED PAPERS</p>
-                <ul class="quest-papers">{% for pp in q.papers %}<li><span class="mono">{{ pp.venue }}</span><span>{{ pp.title }}</span></li>{% endfor %}</ul>
-              </div>
-            {% endif %}
-            {% if q.sponsor %}<p class="sponsor mono"><span>SUPPORTED BY</span> {{ q.sponsor }}</p>{% endif %}
-          </article>
-        {% endfor %}
-      </div>
+    <p class="research-intro">My research lies in human-computer interaction, computer-supported cooperative work, social computing, and video games. At present, I'm mostly exploring the intersection of governance and play in contexts such as video games, content moderation, and metaverse.</p>
+
+    <p class="sublabel mono">MAIN QUESTS · ACTIVE</p>
+    <div class="quest-grid main">
+      {% for q in main_quests %}
+        <article class="quest-card notch" aria-labelledby="quest-{{ q.id }}">
+          <h3 id="quest-{{ q.id }}" class="px">{{ q.title }}</h3>
+          <p class="quest-desc">{{ q.description }}</p>
+          {% if q.papers %}
+            <div class="quest-foot">
+              <p class="sublabel mono">SELECTED PAPERS</p>
+              <ul class="quest-papers">{% for pp in q.papers %}<li><span class="mono">{{ pp.venue }}</span><span>{{ pp.title }}</span></li>{% endfor %}</ul>
+              {% if q.sponsor %}<p class="sponsor mono"><span>SUPPORTED BY</span> {{ q.sponsor }}</p>{% endif %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+
+    <p class="sublabel mono side-label">SIDE QUESTS · LESS FREQUENTLY UPDATED</p>
+    <div class="quest-grid side">
+      {% for q in side_quests %}
+        <article class="quest-card small" aria-labelledby="quest-{{ q.id }}">
+          <h3 id="quest-{{ q.id }}">{{ q.title }}</h3>
+          <p class="quest-desc">{{ q.description }}</p>
+          {% if q.papers %}<ul class="quest-papers">{% for pp in q.papers %}<li><span class="mono">{{ pp.venue }}</span><span>{{ pp.title }}</span></li>{% endfor %}</ul>{% endif %}
+        </article>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -124,22 +114,7 @@ layout: default
   </div>
 </section>
 
-<section id="achievements" class="section tight-top" aria-labelledby="ach-h" data-stage="Achievements" data-key="3">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="label mono">ACHIEVEMENTS</p>
-      <h2 id="ach-h" class="px small">Awards and honors</h2>
-    </div>
-    <ul class="tiles">
-      {% for a in site.data.awards %}
-        <li class="tile notch"><span class="star px" aria-hidden="true">★</span><p class="tile-title">{{ a.title }}</p><p class="tile-meta mono">UNLOCKED · {{ a.year }}</p></li>
-      {% endfor %}
-    </ul>
-    {% if profile.links.cv != "" %}<p class="mono after-link"><a href="{{ profile.links.cv | relative_url }}">All awards in CV →</a></p>{% endif %}
-  </div>
-</section>
-
-<section id="students" class="section band" aria-labelledby="students-h" data-stage="Students" data-key="4">
+<section id="students" class="section band" aria-labelledby="students-h" data-stage="Students" data-key="3">
   <div class="wrap">
     <div class="section-head">
       <p class="label mono">PARTY</p>
@@ -161,12 +136,11 @@ layout: default
         <p class="former-row"><strong>{{ f.name }}</strong> <span class="mono meta">{{ f.degree }}</span> <span class="mono cleared">CLEARED {{ f.year }}{% if f.next != "" %} ▸{% endif %}</span>{% if f.next != "" %} <span class="meta">{{ f.next }}</span>{% endif %}</p>
       {% endfor %}
       <p class="meta">Master's and undergraduate researchers: {{ site.data.people.other | join: " · " }}</p>
-      <p class="meta">I also co-direct the <a href="{{ profile.links.lab }}">Health and Play Lab</a> with <a href="{{ profile.links.xinning }}">Xinning Gui</a>.</p>
     </div>
   </div>
 </section>
 
-<section id="teaching" class="section" aria-labelledby="teach-h" data-stage="Teaching" data-key="5">
+<section id="teaching" class="section" aria-labelledby="teach-h" data-stage="Teaching" data-key="4">
   <div class="wrap">
     <div class="section-head">
       <p class="label mono">TRAINING GROUNDS</p>
@@ -180,7 +154,7 @@ layout: default
   </div>
 </section>
 
-<section id="contact" class="contact" aria-labelledby="contact-h" data-stage="Contact" data-key="6">
+<section id="contact" class="contact" aria-labelledby="contact-h" data-stage="Contact" data-key="5">
   <div class="wrap contact-row">
     <div class="contact-text">
       <p class="mono save">▸ SAVE POINT<span class="blink" aria-hidden="true">_</span></p>
@@ -197,14 +171,13 @@ layout: default
 <nav class="minimap" aria-label="Page map" data-minimap>
   <p class="mm-head mono"><span>MAP</span><span class="mm-cur" data-mm-cur aria-live="off">START</span></p>
   <div class="mm-grid">
-    <svg class="mm-lines" viewBox="0 0 130 46" aria-hidden="true" focusable="false"><polyline points="11,8 119,8 119,38 11,38"></polyline></svg>
+    <svg class="mm-lines" viewBox="0 0 130 46" aria-hidden="true" focusable="false"><polyline points="11,8 119,8 119,38 47,38"></polyline></svg>
     <a class="room" href="#start" data-room="start" title="Start" style="left:0;top:0"><span class="sr">Start</span></a>
     <a class="room" href="#about" data-room="about" title="About" style="left:36px;top:0"><span class="sr">About</span></a>
     <a class="room" href="#research" data-room="research" title="Research" style="left:72px;top:0"><span class="sr">Research</span></a>
     <a class="room" href="#publications" data-room="publications" title="Publications" style="left:108px;top:0"><span class="sr">Publications</span></a>
-    <a class="room" href="#achievements" data-room="achievements" title="Achievements" style="left:108px;top:30px"><span class="sr">Achievements</span></a>
-    <a class="room" href="#students" data-room="students" title="Students" style="left:72px;top:30px"><span class="sr">Students</span></a>
-    <a class="room" href="#teaching" data-room="teaching" title="Teaching" style="left:36px;top:30px"><span class="sr">Teaching</span></a>
-    <a class="room" href="#contact" data-room="contact" title="Contact" style="left:0;top:30px"><span class="sr">Contact</span></a>
+    <a class="room" href="#students" data-room="students" title="Students" style="left:108px;top:30px"><span class="sr">Students</span></a>
+    <a class="room" href="#teaching" data-room="teaching" title="Teaching" style="left:72px;top:30px"><span class="sr">Teaching</span></a>
+    <a class="room" href="#contact" data-room="contact" title="Contact" style="left:36px;top:30px"><span class="sr">Contact</span></a>
   </div>
 </nav>

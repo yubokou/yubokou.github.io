@@ -10,7 +10,6 @@ A small Jekyll site that GitHub Pages builds automatically. There is no build st
 | Research areas (the quest log) | `_data/quests.yml` |
 | Publications (homepage and full list) | `_data/publications.yml` |
 | Students | `_data/people.yml` |
-| Awards on the homepage | `_data/awards.yml` |
 | Courses | `_data/teaching.yml` |
 | Colors and fonts | `assets/css/site.css` (variables at the top) |
 | Page structure | `index.html`, `publications.html`, `404.html`, `_layouts/default.html` |

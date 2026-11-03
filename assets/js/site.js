@@ -188,7 +188,7 @@
   // Keyboard: hotkeys (can be turned off on the controls screen) and the secret code.
   var hotkeys = {};
   stages.forEach(function (s) { var k = s.getAttribute('data-key'); if (k) hotkeys[k] = s.id; });
-  var fallback = { '1': 'research', '2': 'publications', '3': 'achievements', '4': 'students', '5': 'teaching', '6': 'contact' };
+  var fallback = { '1': 'research', '2': 'publications', '3': 'students', '4': 'teaching', '5': 'contact' };
   var code = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
   var pos = 0;
   document.addEventListener('keydown', function (e) {
@@ -210,7 +210,7 @@
     if (controls && controls.open) return;
     if (k === '?') { e.preventDefault(); openControls(); return; }
     if (!keysOn) return;
-    if (/^[1-6]$/.test(k)) { e.preventDefault(); jumpTo(hotkeys[k] || fallback[k]); return; }
+    if (/^[1-5]$/.test(k)) { e.preventDefault(); jumpTo(hotkeys[k] || fallback[k]); return; }
     if (k === '0') { e.preventDefault(); jumpTo('start'); return; }
     if (k === 'p') { window.location.href = document.body.getAttribute('data-pubs'); return; }
     if (k === 'm' && map) { map.classList.toggle('off'); return; }

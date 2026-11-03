@@ -1,15 +1,10 @@
 # Research areas, shown as a "quest log" on the homepage.
-# kind: main | side. "objectives" and "sponsor" are optional.
+# kind: main (active, shown as equal cards) or side (less frequently updated). "sponsor" is optional.
 - id: harmful-design
   kind: main
   short: "Harmful design in virtual worlds"
   title: "Harmful design in user-generated virtual worlds"
-  description: "Who creates content for metaverse platforms such as Roblox, and how should that content be governed? This quest examines harmful design, predatory monetization, and children's safety on user-generated game platforms."
-  objectives:
-    - "Harmful and deceptive design by game creators"
-    - "Gambling-like mechanics and predatory monetization"
-    - "How children assess and cope with safety risks"
-    - "Design moderation and platform governance"
+  description: "While metaverse platforms promise enriched, immersive experiences, an urgent question is who creates content of varying degrees of complexity for them and how to regulate such content."
   papers:
     - venue: "DIS 2023"
       title: "Harmful Design in the Metaverse and How to Mitigate It"
@@ -25,12 +20,7 @@
   kind: main
   short: "Gaming and esports"
   title: "Gaming and esports"
-  description: "How players team up, compete, progress, and feel in competitive games, much of it studied in League of Legends: teamwork, self-tracking, streaks, emotion regulation, toxic behavior, and the rules that govern play."
-  objectives:
-    - "Teamwork and temporary teams"
-    - "Toxicity and gendered harassment"
-    - "Emotion regulation, streaks, and progression"
-    - "Esports governance and casual game modes"
+  description: "I'm interested in knowing more about all aspects of gaming. With collaborators, I've worked on topics such as teamwork, self-tracking, toxic behavior, governance, progression, streaks, and streaming."
   papers:
     - venue: "CHI PLAY 2014"
       title: "Playing with Strangers: Understanding Temporary Teams in League of Legends"
@@ -44,13 +34,8 @@
 - id: moderation
   kind: main
   short: "Punishment and moderation"
-  title: "Punishment and the moderation experience"
-  description: "How can moderation make online communities better? This quest focuses on understanding and supporting punished users, and on making moderation more transparent, fair, and rehabilitative."
-  objectives:
-    - "Experiences of punished users"
-    - "Peer support and community-based rehabilitation"
-    - "Transparency and fairness in moderation"
-    - "Creator moderation on YouTube"
+  title: "User punishment and moderation experience"
+  description: "We study how design efforts such as moderation could make online communities a better place. A focus is on understanding and supporting punished users."
   papers:
     - venue: "CHI 2021"
       title: "Flag and Flaggability in Automated Moderation"
@@ -66,7 +51,7 @@
   kind: side
   short: "Culture and technology use"
   title: "Culture and technology use"
-  description: "How local cultural frameworks, including Confucian values, shape practices such as censorship and the use of visual language like emoji, stickers, and memes."
+  description: "I seek to explore the links between technology use and its cultural conditioning, and how \"local\" perspectives or frameworks could better interpret seemingly confusing human-computer interaction phenomena. My previous work has explored how Confucian values are manifested in people's practices around censorship and the use of visual languages such as emoji."
   papers:
     - venue: "INTERACT 2017"
       title: "A Confucian Look at Internet Censorship in China"
@@ -77,7 +62,7 @@
   kind: side
   short: "AI in context"
   title: "AI in context"
-  description: "The settings where people encounter technologies labeled as AI, from consumer health tools and symptom checkers to AI-led moderation."
+  description: "This interest concerns the contexts in which people interact with technologies clustered under the umbrella term of \"artificial intelligence.\""
   papers:
     - venue: "CSCW 2020"
       title: "Mediating Community-AI Interaction through Situated Explanation"
@@ -88,7 +73,7 @@
   kind: side
   short: "Community and technology"
   title: "Community and technology"
-  description: "Designing technology to support community development, including professionalization and social roles among UX practitioners online."
+  description: "I'm interested in understanding and designing technology to support community development. Emerging or distributed forms of communities raise new questions about socialization, professionalization, and governance."
   papers:
     - venue: "ACM TSC 2018"
       title: "Understanding Social Roles in an Online Community of Volatile Practice"
@@ -99,7 +84,7 @@
   kind: side
   short: "Social media discourses"
   title: "Social media discourses"
-  description: "Conspiracy talk, propaganda, and misinformation in their conversational and cultural contexts."
+  description: "This line of work situates online discourses, including conspiracy theorizing, propaganda, and fake news, in their conversational, social, or cultural contexts."
   papers:
     - venue: "CSCW 2017"
       title: "Conspiracy Talk on Social Media"

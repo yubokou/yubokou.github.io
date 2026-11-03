@@ -5,6 +5,6 @@
     <h3 class="pub-title">{% if p.link %}<a href="{{ p.link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
     <p class="pub-authors">{{ p.authors | replace: "Yubo Kou", "<strong>Yubo Kou</strong>" }}</p>
     {% if include.full %}<p class="pub-full">{{ p.venue_full }}</p>{% endif %}
-    {% if p.award %}<span class="badge mono notch"><span aria-hidden="true">★</span>Achievement unlocked: {{ p.award }}</span>{% endif %}
+    {% if p.award %}<span class="badge mono notch"><span aria-hidden="true">★</span>{{ p.award }}</span>{% endif %}
   </div>
 </article>

@@ -46,7 +46,7 @@ links:
   cv: ""            # e.g. "assets/cv/yubo-kou-cv.pdf" once the PDF is added
   scholar: "https://scholar.google.com/citations?user=mCz8znkAAAAJ&hl=en"
   lab: "https://sites.psu.edu/healthandplay/"
-  xinning: "https://sites.psu.edu/xinninggui/"
+  xinning: "https://xinninggui.github.io/"
 
 # Shown in the footer as "Last saved". Update when you edit the site.
 last_updated: "Nov 3, 2026"

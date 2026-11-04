@@ -24,7 +24,7 @@ sheet:
       - "Usable privacy and security"
   - label: "LAB"
     value: "Health and Play Lab"
-    url: "https://sites.psu.edu/healthandplay/"
+    url: "https://healthandplaylab.github.io/"
   - label: "PHD"
     value: "Informatics, UC Irvine"
   - label: "OFFICE"
@@ -45,7 +45,7 @@ prospective: ""
 links:
   cv: ""            # e.g. "assets/cv/yubo-kou-cv.pdf" once the PDF is added
   scholar: "https://scholar.google.com/citations?user=mCz8znkAAAAJ&hl=en"
-  lab: "https://sites.psu.edu/healthandplay/"
+  lab: "https://healthandplaylab.github.io/"
   xinning: "https://xinninggui.github.io/"
 
 # Shown in the footer as "Last saved". Update when you edit the site.

@@ -51,8 +51,8 @@ layout: default
       <h2 id="about-h" class="px">About</h2>
     </div>
     <div class="about-text">
-      {% capture xg_link %}<a href="{{ profile.links.xinning }}">Xinning Gui</a>{% endcapture %}{% capture lab_link %}<a href="{{ profile.links.lab }}">Health and Play Lab</a>{% endcapture %}
-      {% for para in profile.bio %}<p>{{ para | replace: "Xinning Gui", xg_link | replace: "Health and Play Lab", lab_link }}</p>{% endfor %}
+      {% capture xg_link %}<a href="{{ profile.links.xinning }}">Dr. Xinning Gui</a>{% endcapture %}{% capture lab_link %}<a href="{{ profile.links.lab }}">Health and Play Lab</a>{% endcapture %}
+      {% for para in profile.bio %}<p>{{ para | replace: "Dr. Xinning Gui", xg_link | replace: "Health and Play Lab", lab_link }}</p>{% endfor %}
     </div>
   </div>
 </section>

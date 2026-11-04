@@ -42,7 +42,7 @@
   venue: "CCS"
   venue_full: "Proceedings of the ACM SIGSAC Conference on Computer and Communications Security (CCS 2026), The Hague, Netherlands"
   type: paper
-  link: "https://doi.org/10.1145/3830454.3846726"
+  # link: "https://doi.org/10.1145/3830454.3846726"  # DOI not registered yet; restore once the CCS 2026 proceedings are out
 
 - year: 2026
   title: "Player Safety by Design: Co-Designing Child-Centered Safety Mechanisms with Children"

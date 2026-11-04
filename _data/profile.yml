@@ -40,7 +40,7 @@ office:
   - "University Park, PA 16802"
 
 # Note for prospective students on the Contact section. Leave "" to hide it.
-prospective: ""
+prospective: 'Interested in joining? Please read the <a href="https://healthandplaylab.github.io/contact/#join">Health and Play Lab’s notes for prospective students</a> before getting in touch.'
 
 links:
   cv: ""            # e.g. "assets/cv/yubo-kou-cv.pdf" once the PDF is added
@@ -49,4 +49,4 @@ links:
   xinning: "https://xinninggui.github.io/"
 
 # Shown in the footer as "Last saved". Update when you edit the site.
-last_updated: "Nov 3, 2026"
+last_updated: "Nov 4, 2026"

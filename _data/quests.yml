@@ -6,12 +6,12 @@
   title: "Harmful design in user-generated virtual worlds"
   description: "While user-generated virtual world platforms such as Roblox promise enriched, immersive experiences, an urgent question is who creates content of varying degrees of complexity for them and how to regulate such content."
   papers:
-    - venue: "CHI PLAY 2024"
-      title: "Harmful Design in User-Generated Games and its Ethical and Governance Challenges"
-    - venue: "CHI 2025"
-      title: "Child Safety, Monetization, and Moderation on Roblox"
     - venue: "CCS 2026"
       title: "How Children Assess Digital Safety Risk in Gaming Platforms"
+    - venue: "CHI 2025"
+      title: "Child Safety, Monetization, and Moderation on Roblox"
+    - venue: "CHI PLAY 2024"
+      title: "Harmful Design in User-Generated Games and its Ethical and Governance Challenges"
   sponsor: "NSF #2326505 · Penn State College of IST Seed Grant"
 
 - id: esports
@@ -20,14 +20,14 @@
   title: "Gaming and esports"
   description: "I'm interested in knowing more about all aspects of gaming. With collaborators, I've worked on topics such as teamwork, self-tracking, toxic behavior, governance, progression, streaks, and streaming."
   papers:
-    - venue: "CHI PLAY 2014"
-      title: "Playing with Strangers: Understanding Temporary Teams in League of Legends"
-    - venue: "CSCW 2020"
-      title: "Emotion Regulation in eSports Gaming"
-    - venue: "CSCW 2024"
-      title: "Casual Competition by Design"
     - venue: "CHI PLAY 2025"
       title: "Gendered Toxicity in Competitive Gaming"
+    - venue: "CSCW 2024"
+      title: "Casual Competition by Design"
+    - venue: "CSCW 2020"
+      title: "Emotion Regulation in eSports Gaming"
+    - venue: "CHI PLAY 2014"
+      title: "Playing with Strangers: Understanding Temporary Teams in League of Legends"
 
 - id: moderation
   kind: main
@@ -35,14 +35,14 @@
   title: "User punishment and moderation experience"
   description: "We study how design efforts such as moderation could make online communities a better place. A focus is on understanding and supporting punished users."
   papers:
+    - venue: "CHI 2026"
+      title: "Why Creators Break Rules"
+    - venue: "CHI 2024"
+      title: "Community Begins Where Moderation Ends"
     - venue: "CHI 2021"
       title: "Flag and Flaggability in Automated Moderation"
     - venue: "CSCW 2021"
       title: "Punishment and Its Discontents"
-    - venue: "CHI 2024"
-      title: "Community Begins Where Moderation Ends"
-    - venue: "CHI 2026"
-      title: "Why Creators Break Rules"
   sponsor: "NSF #2006854 · NSF #2334934"
 
 - id: culture
@@ -51,10 +51,10 @@
   title: "Culture and technology use"
   description: "I seek to explore the links between technology use and its cultural conditioning, and how \"local\" perspectives or frameworks could better interpret seemingly confusing human-computer interaction phenomena. My previous work has explored how Confucian values are manifested in people's practices around censorship and the use of visual languages such as emoji."
   papers:
-    - venue: "INTERACT 2017"
-      title: "A Confucian Look at Internet Censorship in China"
     - venue: "CSCW 2019"
       title: "Culturally-Embedded Visual Literacy"
+    - venue: "INTERACT 2017"
+      title: "A Confucian Look at Internet Censorship in China"
 
 - id: ai
   kind: side
@@ -62,10 +62,10 @@
   title: "AI in context"
   description: "This interest concerns the contexts in which people interact with technologies clustered under the umbrella term of \"artificial intelligence.\""
   papers:
-    - venue: "CSCW 2020"
-      title: "Mediating Community-AI Interaction through Situated Explanation"
     - venue: "CHI 2021"
       title: "The Medical Authority of AI"
+    - venue: "CSCW 2020"
+      title: "Mediating Community-AI Interaction through Situated Explanation"
 
 - id: community
   kind: side
@@ -73,10 +73,10 @@
   title: "Community and technology"
   description: "I'm interested in understanding and designing technology to support community development. Emerging or distributed forms of communities raise new questions about socialization, professionalization, and governance."
   papers:
-    - venue: "ACM TSC 2018"
-      title: "Understanding Social Roles in an Online Community of Volatile Practice"
     - venue: "CHI 2019"
       title: "A Practice-Led Account of the Conceptual Evolution of UX Knowledge"
+    - venue: "ACM TSC 2018"
+      title: "Understanding Social Roles in an Online Community of Volatile Practice"
 
 - id: discourse
   kind: side

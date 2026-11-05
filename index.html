@@ -88,7 +88,7 @@ layout: default
         <article class="quest-card small" aria-labelledby="quest-{{ q.id }}">
           <h3 id="quest-{{ q.id }}">{{ q.title }}</h3>
           <p class="quest-desc">{{ q.description }}</p>
-          {% if q.papers %}<ul class="quest-papers">{% for pp in q.papers %}<li><span class="mono">{{ pp.venue }}</span><span>{{ pp.title }}</span></li>{% endfor %}</ul>{% endif %}
+          {% if q.papers %}<p class="sublabel mono">SELECTED PAPERS</p><ul class="quest-papers">{% for pp in q.papers %}<li><span class="mono">{{ pp.venue }}</span><span>{{ pp.title }}</span></li>{% endfor %}</ul>{% endif %}
         </article>
       {% endfor %}
     </div>

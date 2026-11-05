@@ -74,7 +74,7 @@ layout: default
           {% if q.papers %}
             <div class="quest-foot">
               <p class="sublabel mono">SELECTED PAPERS</p>
-              <ul class="quest-papers">{% for pp in q.papers %}<li><span class="mono">{{ pp.venue }}</span><span>{{ pp.title }}</span></li>{% endfor %}</ul>
+              <ul class="quest-papers">{% for pp in q.papers %}{% assign pub_link = "" %}{% for p in site.data.publications %}{% if pub_link == "" and p.link and p.title contains pp.title %}{% assign pub_link = p.link %}{% endif %}{% endfor %}<li><span class="mono">{{ pp.venue }}</span><span>{% if pub_link != "" %}<a href="{{ pub_link }}">{{ pp.title }}</a>{% else %}{{ pp.title }}{% endif %}</span></li>{% endfor %}</ul>
               {% if q.sponsor %}<p class="sponsor mono"><span>SUPPORTED BY</span> {{ q.sponsor }}</p>{% endif %}
             </div>
           {% endif %}
@@ -88,7 +88,7 @@ layout: default
         <article class="quest-card small" aria-labelledby="quest-{{ q.id }}">
           <h3 id="quest-{{ q.id }}">{{ q.title }}</h3>
           <p class="quest-desc">{{ q.description }}</p>
-          {% if q.papers %}<p class="sublabel mono">SELECTED PAPERS</p><ul class="quest-papers">{% for pp in q.papers %}<li><span class="mono">{{ pp.venue }}</span><span>{{ pp.title }}</span></li>{% endfor %}</ul>{% endif %}
+          {% if q.papers %}<p class="sublabel mono">SELECTED PAPERS</p><ul class="quest-papers">{% for pp in q.papers %}{% assign pub_link = "" %}{% for p in site.data.publications %}{% if pub_link == "" and p.link and p.title contains pp.title %}{% assign pub_link = p.link %}{% endif %}{% endfor %}<li><span class="mono">{{ pp.venue }}</span><span>{% if pub_link != "" %}<a href="{{ pub_link }}">{{ pp.title }}</a>{% else %}{{ pp.title }}{% endif %}</span></li>{% endfor %}</ul>{% endif %}
         </article>
       {% endfor %}
     </div>

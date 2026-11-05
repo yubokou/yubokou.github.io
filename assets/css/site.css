@@ -302,3 +302,5 @@ img { max-width: 100%; display: block; }
 /* On the homepage the nav follows the section in view instead of marking Home as current. */
 html.has-spy .nav a[aria-current="page"]:not(.here) { color: var(--text); }
 html.has-spy .nav a[aria-current="page"]:not(.here)::before { opacity: 0; }
+.quest-papers a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.quest-papers a:hover { color: var(--gold); text-decoration-color: var(--gold); }
